@@ -1,0 +1,7 @@
+11-12-2025 20:48:25 FINE  [or.po.Driver] (agroal-41) Connecting with URL: jdbc:postgresql://localhost:5432/topicos1db
+11-12-2025 20:48:25 FINE  [or.po.jd.PgConnection] (agroal-41) PostgreSQL JDBC Driver 42.7.8
+11-12-2025 20:48:25 FINE  [or.po.jd.PgConnection] (agroal-41)   setDefaultFetchSize = 0
+11-12-2025 20:48:25 FINE  [or.po.jd.PgConnection] (agroal-41)   setPrepareThreshold = 5
+11-12-2025 20:48:25 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-41) Trying to establish a protocol version 3 connection to localhost:5432
+11-12-2025 20:48:25 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-41) Receive Buffer Size is 65.536
+11-12-2025 20:48:25 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-41) Send Buffer Size is 1.313.280

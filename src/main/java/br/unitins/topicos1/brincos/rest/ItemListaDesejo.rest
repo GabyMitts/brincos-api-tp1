@@ -1,0 +1,33 @@
+############ LOGIN ############
+# @name Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123456"
+}
+
+@TOKEN = {{Login.response.body.token}}
+
+############################
+
+############ GET ALL LISTA DESEJO ############
+GET http://localhost:8080/item-listas-desejo/1
+Authorization: Bearer {{TOKEN}}
+
+
+############ GET LISTA DESEJO BY ID ############
+DELETE http://localhost:8080/item-listas-desejo/1/1
+Authorization: Bearer {{TOKEN}}
+
+############ CREATE NEW LISTA DESEJO ############
+
+POST http://localhost:8080/item-listas-desejo/1
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "idProduto":"1"
+}
+

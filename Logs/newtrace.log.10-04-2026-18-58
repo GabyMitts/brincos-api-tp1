@@ -1,0 +1,8 @@
+10-04-2026 18:58:17 WARN  [io.sm.config] (Quarkus Main Thread) SRCFG01007: Duplicate value found for name : quarkus.http.host, config source name : PropertiesConfigSource[source=file:/home/edival/PESSOAL/Gaby/Java/brincos-api-tp1/target/classes/application.properties], (old value : 0.0.0.0)
+10-04-2026 18:58:18 WARN  [io.sm.config] (Quarkus Main Thread) SRCFG01007: Duplicate value found for name : quarkus.http.host, config source name : PropertiesConfigSource[source=file:/home/edival/PESSOAL/Gaby/Java/brincos-api-tp1/target/classes/application.properties], (old value : 0.0.0.0)
+10-04-2026 18:58:18 WARN  [io.qu.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.http.cors" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+10-04-2026 18:58:18 WARN  [io.qu.config] (Quarkus Main Thread) The "quarkus.log.file.enable" config property is deprecated and should not be used anymore.
+10-04-2026 18:58:18 WARN  [io.qu.config] (Quarkus Main Thread) The "quarkus.hibernate-orm.database.generation" config property is deprecated and should not be used anymore.
+10-04-2026 18:58:19 INFO  [io.quarkus] (Quarkus Main Thread) brincos-api-tp1 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.30.1) started in 2.822s. Listening on: http://0.0.0.0:8080
+10-04-2026 18:58:19 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+10-04-2026 18:58:19 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]

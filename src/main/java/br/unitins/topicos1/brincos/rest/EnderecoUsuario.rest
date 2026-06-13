@@ -1,0 +1,85 @@
+############ LOGIN ############
+# @name Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123456"
+}
+
+@TOKEN = {{Login.response.body.token}}
+
+
+############################
+
+############ GET ALL USUARIO ############
+GET http://localhost:8080/usuario/endereco/list/1
+Authorization: Bearer {{TOKEN}}
+
+
+############ GET USUARIO BY ID ############
+GET http://localhost:8080/usuario/endereco/1
+Authorization: Bearer {{TOKEN}}
+
+############ CREATE NEW USUARIO ############
+
+POST http://localhost:8080/usuario/endereco
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "usuarioId": 1,
+    "rua": "Rua Exemplo 3",
+    "numero": "123",
+    "complemento": "Apto 101",
+    "bairro": "Centro",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "pais": "Brasil",
+    "cep": "01000-000"
+}
+
+#######################33
+PUT http://localhost:8080/usuario/endereco/2
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "usuarioId": 1,
+    "rua": "Rua Exemplo 45",
+    "numero": "123",
+    "complemento": "Apto 101",
+    "bairro": "Centro",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "pais": "Brasil",
+    "cep": "01000-000"
+}
+
+
+################################3
+
+POST http://localhost:8080/usuario/getTokenRecuperacaoSenha
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com"
+}
+
+################################################################3
+
+POST http://localhost:8080/usuario/resetarSenha
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "novaSenha": "novaSenha123",
+    "token": "689e568c-1b1e-4e5d-91a8-e3430fe3eb99"
+}
+
+#######################################3333
+
+GET http://localhost:8080/usuario/endereco/list/1
+Content-Type: application/json
+Authorization: Bearer  eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ1bml0aW5zLWp3dCIsImV4cCI6MTc4MDYxNTg5MSwic3ViIjoiZ2FieUBnbWFpbC5jb20iLCJwZXJmaWwiOiJBZG1pbiIsImdyb3VwcyI6WyJBZG1pbiJdLCJlbWFpbCI6ImdhYnlAZ21haWwuY29tIiwiaWF0IjoxNzgwNjEyMjkxLCJqdGkiOiI1NTFhZWJlZi05YTBiLTRhNmMtOTQ5YS1kZDdhZjZkMWE3ZWIifQ.HcwYveL0V1XyjJ8PFY4VrhWm2qa7uN7cLUKATyDX5hbPNOeO_PPIv3rHshLOLrl9CDIbadkoDysDyHwPhqnJqL2EgOQObvzJS9Y8wKDwWNVtNbJXPEzzHZ5StV7FkwkiQ6TXuK2TqtuZIY_u5UCFhLaIYfHEiuO1b_scZVcrhzFd3TUdJslTReSrA8K10Lp2y_kfTs07fnjMF6dAbFnsjuXjehst55lPyLMXqSJv7h6sqMJYGWBmrFLgxD8KPS0muH41KcTXP0Z4CSCbkDVQcss_6l-u-s90gbVZ30WMoUBDcC6izEHevI_iOwizDYZCJ2W9WjJ0qzWJvNP3-gjvBw

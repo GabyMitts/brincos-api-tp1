@@ -1,0 +1,20 @@
+Warning: JAVA_HOME environment variable is not set.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< br.unitins.topicos1.brincos:brincos-api-tp1 >-------------
+[INFO] Building brincos-api-tp1 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- quarkus:3.30.1:dev (default-cli) @ brincos-api-tp1 ---
+[INFO] Invoking resources:3.3.1:resources (default-resources) @ brincos-api-tp1
+[INFO] Copying 4 resources from src/main/resources to target/classes
+[INFO] Invoking quarkus:3.30.1:generate-code (default) @ brincos-api-tp1
+[INFO] Invoking compiler:3.14.0:compile (default-compile) @ brincos-api-tp1
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] Invoking resources:3.3.1:testResources (default-testResources) @ brincos-api-tp1
+[INFO] skip non existing resourceDirectory /home/edival/PESSOAL/Gaby/Java/brincos-api-tp1/src/test/resources
+[INFO] Invoking quarkus:3.30.1:generate-code-tests (default) @ brincos-api-tp1
+[INFO] Invoking compiler:3.14.0:testCompile (default-testCompile) @ brincos-api-tp1
+[INFO] Nothing to compile - all classes are up to date.
+Listening for transport dt_socket at address: 5005

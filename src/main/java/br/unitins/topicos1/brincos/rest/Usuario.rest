@@ -1,0 +1,80 @@
+
+# @name Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123456"
+}
+
+@TOKEN = {{Login.response.body.token}}
+
+############ GET ALL USUARIO ############
+GET http://localhost:8080/usuario
+
+
+
+############ GET ALL USUARIO ############
+GET http://localhost:8080/usuario
+Authorization: Bearer {{TOKEN}}
+
+
+
+############ GET USUARIO BY ID ############
+GET http://localhost:8080/usuario/1
+
+############ CREATE NEW USUARIO ############
+POST http://localhost:8080/usuario
+Content-Type: application/json
+
+{
+    "nome": "Gaby Bibi",
+    "email": "gaby@gmail.com",
+    "senha": "123456"
+}
+
+################################3
+
+POST http://localhost:8080/usuario/getTokenRecuperacaoSenha
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com"
+}
+
+################################################################3
+
+POST http://localhost:8080/usuario/resetarSenha
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "novaSenha": "novaSenha123",
+    "token": "689e568c-1b1e-4e5d-91a8-e3430fe3eb99"
+}
+
+
+
+############ ALTERAR USUARIO ############
+PUT http://localhost:8080/usuario/1
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "nome": "Gaby Bibi",
+    "telefone": "11999999999",
+    "senha": "123456"
+
+}
+
+################################3
+
+POST http://localhost:8080/usuario/alterarSenha
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "senha": "123456",
+    "novaSenha": "novaSenha123"
+}

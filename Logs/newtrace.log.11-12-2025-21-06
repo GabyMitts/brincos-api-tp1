@@ -1,0 +1,216 @@
+11-12-2025 21:06:04 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:06:04 DEBUG [or.hi.or.jdbc] (executor-thread-2) HHH100016: 'hibernate.connection.provider_disables_autocommit' was enabled. This setting should only be enabled when JDBC Connections obtained by Hibernate from the ConnectionProvider have auto-commit disabled. Enabling this setting when connections have auto-commit enabled leads to execution of SQL operations outside of any JDBC transaction.
+11-12-2025 21:06:04 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34mselect[0m
+        p1_0.id,
+        p1_0.bairro,
+        p1_0.cep,
+        p1_0.cidade,
+        p1_0.data,
+        p1_0.endereco,
+        p1_0.status,
+        p1_0.total,
+        p1_0.usuario_id,
+        u1_0.id,
+        u1_0.email,
+        u1_0.nome,
+        u1_0.perfil,
+        u1_0.senha 
+    [34mfrom[0m
+        Pedido p1_0 
+    [34mjoin[0m
+        Usuario u1_0 
+            [34mon[0m u1_0.id=p1_0.usuario_id 
+    [34mwhere[0m
+        p1_0.id=?
+11-12-2025 21:06:04 FINE  [or.po.jd.PgConnection] (executor-thread-2)   setAutoCommit = false
+11-12-2025 21:06:04 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34minsert[0m 
+    [34minto[0m
+        Pagamento
+        (data, metodoPagamento, pedido_id, total) 
+    [34mvalues[0m
+        (?, ?, ?, ?)
+11-12-2025 21:06:04 DEBUG [or.hi.id.IdentifierGeneratorHelper] (executor-thread-2) Extracted generated values for entity [br.unitins.topicos1.brincos.model.Pagamento]: [1]
+11-12-2025 21:06:04 DEBUG [or.hi.ev.in.AbstractFlushingEventListener] (executor-thread-2) Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+11-12-2025 21:06:04 DEBUG [or.hi.ev.in.AbstractFlushingEventListener] (executor-thread-2) Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+11-12-2025 21:06:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) Listing entities:
+11-12-2025 21:06:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Usuario{senha=$2a$10$YGGN3roE/W7MgJUJC2QFWOv5ikaVNbVXA9XvQTLhHM/3tx0LzKsX., nome=Gabriella Mittelstad, id=1, email=gaby@gmail.com, perfil=Admin}
+11-12-2025 21:06:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Pagamento{total=95.0, data=2025-12-11T21:06:04.907866796, metodoPagamento=CartaoCredito, pedido=br.unitins.topicos1.brincos.model.Pedido#1, id=1}
+11-12-2025 21:06:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Pedido{itensPedido=<uninitialized>, cidade=São Paulo, total=95.0, data=2025-12-11T21:05:43.610902, endereco=Rua das Flores, 123, bairro=Centro, usuario=br.unitins.topicos1.brincos.model.Usuario#1, id=1, cep=01234-567, status=null}
+11-12-2025 21:06:04 FINE  [or.po.jd.PgConnection] (executor-thread-2)   setAutoCommit = true
+11-12-2025 21:06:04 DEBUG [or.hi.se.metrics] (executor-thread-2) HHH000401: Logging session metrics:
+	968064 ns acquiring 1 JDBC connections
+	6993 ns releasing 1 JDBC connections
+	1107840 ns preparing 2 JDBC statements
+	3350905 ns executing 2 JDBC statements
+	0 ns executing 0 JDBC batches
+	18952 ns performing 2 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	6088372 ns executing 1 flushes (flushing a total of 3 entities and 1 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Running: [stty, -F, /dev/pts/8, size]
+11-12-2025 21:06:24 DEBUG [ja.la.ProcessBuilder] (SIGWINCH handler) ProcessBuilder.start(): pid: 469254, dir: null, cmd: "stty": java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.aesh.readline.terminal.impl.ExecPty.exec(ExecPty.java:456)
+	at org.aesh.readline.terminal.impl.ExecPty.getSize(ExecPty.java:230)
+	at org.aesh.readline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:62)
+	at org.aesh.readline.tty.terminal.TerminalConnection.size(TerminalConnection.java:288)
+	at org.aesh.readline.tty.terminal.TerminalConnection.lambda$init$2(TerminalConnection.java:137)
+	at org.aesh.readline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:70)
+	at org.aesh.readline.terminal.impl.PosixSysTerminal.lambda$new$0(PosixSysTerminal.java:45)
+	at org.aesh.readline.terminal.utils.Signals$1.invoke(Signals.java:58)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.handle(Unknown Source)
+	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Result: 16 109
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Running: [stty, -F, /dev/pts/8, size]
+11-12-2025 21:06:24 DEBUG [ja.la.ProcessBuilder] (SIGWINCH handler) ProcessBuilder.start(): pid: 469256, dir: null, cmd: "stty": java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.aesh.readline.terminal.impl.ExecPty.exec(ExecPty.java:456)
+	at org.aesh.readline.terminal.impl.ExecPty.getSize(ExecPty.java:230)
+	at org.aesh.readline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:62)
+	at org.aesh.readline.tty.terminal.TerminalConnection.size(TerminalConnection.java:288)
+	at io.quarkus.deployment.console.AeshConsole.setup(AeshConsole.java:206)
+	at io.quarkus.deployment.console.AeshConsole.lambda$setup$3(AeshConsole.java:304)
+	at org.aesh.readline.tty.terminal.TerminalConnection.lambda$init$2(TerminalConnection.java:137)
+	at org.aesh.readline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:70)
+	at org.aesh.readline.terminal.impl.PosixSysTerminal.lambda$new$0(PosixSysTerminal.java:45)
+	at org.aesh.readline.terminal.utils.Signals$1.invoke(Signals.java:58)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.handle(Unknown Source)
+	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Result: 16 109
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Running: [stty, -F, /dev/pts/8, -a]
+11-12-2025 21:06:24 DEBUG [ja.la.ProcessBuilder] (SIGWINCH handler) ProcessBuilder.start(): pid: 469257, dir: null, cmd: "stty": java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.aesh.readline.terminal.impl.ExecPty.exec(ExecPty.java:456)
+	at org.aesh.readline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:245)
+	at org.aesh.readline.terminal.impl.ExecPty.getAttr(ExecPty.java:131)
+	at org.aesh.readline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:46)
+	at org.aesh.readline.tty.terminal.TerminalConnection.getAttributes(TerminalConnection.java:175)
+	at org.aesh.terminal.Connection.enterRawMode(Connection.java:152)
+	at io.quarkus.deployment.console.AeshConsole.setup(AeshConsole.java:306)
+	at io.quarkus.deployment.console.AeshConsole.lambda$setup$3(AeshConsole.java:304)
+	at org.aesh.readline.tty.terminal.TerminalConnection.lambda$init$2(TerminalConnection.java:137)
+	at org.aesh.readline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:70)
+	at org.aesh.readline.terminal.impl.PosixSysTerminal.lambda$new$0(PosixSysTerminal.java:45)
+	at org.aesh.readline.terminal.utils.Signals$1.invoke(Signals.java:58)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.handle(Unknown Source)
+	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Result: speed 38400 baud; rows 16; columns 109; line = 0;
+intr = <undef>; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = M-^?;
+eol2 = M-^?; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr -icrnl -ixon -ixoff
+-iuclc ixany imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig -icanon -iexten -echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+echoctl echoke -flusho -extproc
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Running: [stty, -F, /dev/pts/8, -a]
+11-12-2025 21:06:24 DEBUG [ja.la.ProcessBuilder] (SIGWINCH handler) ProcessBuilder.start(): pid: 469258, dir: null, cmd: "stty": java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.aesh.readline.terminal.impl.ExecPty.exec(ExecPty.java:456)
+	at org.aesh.readline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:245)
+	at org.aesh.readline.terminal.impl.ExecPty.getAttr(ExecPty.java:131)
+	at org.aesh.readline.terminal.impl.ExecPty.setAttr(ExecPty.java:153)
+	at org.aesh.readline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54)
+	at org.aesh.readline.tty.terminal.TerminalConnection.setAttributes(TerminalConnection.java:180)
+	at org.aesh.terminal.Connection.enterRawMode(Connection.java:159)
+	at io.quarkus.deployment.console.AeshConsole.setup(AeshConsole.java:306)
+	at io.quarkus.deployment.console.AeshConsole.lambda$setup$3(AeshConsole.java:304)
+	at org.aesh.readline.tty.terminal.TerminalConnection.lambda$init$2(TerminalConnection.java:137)
+	at org.aesh.readline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:70)
+	at org.aesh.readline.terminal.impl.PosixSysTerminal.lambda$new$0(PosixSysTerminal.java:45)
+	at org.aesh.readline.terminal.utils.Signals$1.invoke(Signals.java:58)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.handle(Unknown Source)
+	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Result: speed 38400 baud; rows 16; columns 109; line = 0;
+intr = <undef>; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = M-^?;
+eol2 = M-^?; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr -icrnl -ixon -ixoff
+-iuclc ixany imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig -icanon -iexten -echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+echoctl echoke -flusho -extproc
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Running: [stty, -F, /dev/pts/8, intr, undef]
+11-12-2025 21:06:24 DEBUG [ja.la.ProcessBuilder] (SIGWINCH handler) ProcessBuilder.start(): pid: 469259, dir: null, cmd: "stty": java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.aesh.readline.terminal.impl.ExecPty.exec(ExecPty.java:456)
+	at org.aesh.readline.terminal.impl.ExecPty.setAttr(ExecPty.java:210)
+	at org.aesh.readline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54)
+	at org.aesh.readline.tty.terminal.TerminalConnection.setAttributes(TerminalConnection.java:180)
+	at org.aesh.terminal.Connection.enterRawMode(Connection.java:159)
+	at io.quarkus.deployment.console.AeshConsole.setup(AeshConsole.java:306)
+	at io.quarkus.deployment.console.AeshConsole.lambda$setup$3(AeshConsole.java:304)
+	at org.aesh.readline.tty.terminal.TerminalConnection.lambda$init$2(TerminalConnection.java:137)
+	at org.aesh.readline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:70)
+	at org.aesh.readline.terminal.impl.PosixSysTerminal.lambda$new$0(PosixSysTerminal.java:45)
+	at org.aesh.readline.terminal.utils.Signals$1.invoke(Signals.java:58)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.handle(Unknown Source)
+	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+11-12-2025 21:06:24 FINE  [or.ae.re.te.im.ExecPty] (SIGWINCH handler) Result: 
+11-12-2025 21:06:46 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:06:46 DEBUG [or.jb.re.re.se.ha.RequestDeserializeHandler] (executor-thread-2) Error occurred during deserialization of input: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `br.unitins.topicos1.brincos.model.MetodoPagamento` from String "CartaoCred2ito": not one of the values accepted for Enum class: [CartaoCredito, CartaoDebito, Pix, Boleto]
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 4, column: 22] (through reference chain: br.unitins.topicos1.brincos.dto.PagamentoDTO["metodoPagamento"])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:2014)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1300)
+	at com.fasterxml.jackson.databind.deser.std.EnumDeserializer._deserializeAltString(EnumDeserializer.java:454)
+	at com.fasterxml.jackson.databind.deser.std.EnumDeserializer._fromString(EnumDeserializer.java:310)
+	at com.fasterxml.jackson.databind.deser.std.EnumDeserializer.deserialize(EnumDeserializer.java:275)
+	at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:553)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:597)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1499)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:340)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2146)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1504)
+	at io.quarkus.resteasy.reactive.jackson.runtime.serialisers.ServerJacksonMessageBodyReader.doReadFrom(ServerJacksonMessageBodyReader.java:93)
+	at io.quarkus.resteasy.reactive.jackson.runtime.serialisers.ServerJacksonMessageBodyReader.readFrom(ServerJacksonMessageBodyReader.java:44)
+	at io.quarkus.resteasy.reactive.jackson.runtime.serialisers.ServerJacksonMessageBodyReader.readFrom(ServerJacksonMessageBodyReader.java:83)
+	at io.quarkus.resteasy.reactive.jackson.runtime.serialisers.ServerJacksonMessageBodyReader_ClientProxy.readFrom(Unknown Source)
+	at org.jboss.resteasy.reactive.server.handlers.RequestDeserializeHandler.readFrom(RequestDeserializeHandler.java:126)
+	at org.jboss.resteasy.reactive.server.handlers.RequestDeserializeHandler.handle(RequestDeserializeHandler.java:84)
+	at io.quarkus.resteasy.reactive.server.runtime.QuarkusResteasyReactiveRequestContext.invokeHandler(QuarkusResteasyReactiveRequestContext.java:177)
+	at org.jboss.resteasy.reactive.common.core.AbstractResteasyReactiveContext.run(AbstractResteasyReactiveContext.java:147)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$15.runWith(VertxCoreRecorder.java:645)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.doRunWith(EnhancedQueueExecutor.java:2651)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2630)
+	at org.jboss.threads.EnhancedQueueExecutor.runThreadBody(EnhancedQueueExecutor.java:1622)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1589)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:11)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:11)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+

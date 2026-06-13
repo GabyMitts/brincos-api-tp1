@@ -1,0 +1,903 @@
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource BuildTime RunTime Fixed with ordinal 2147483647
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource SysPropConfigSource with ordinal 400
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource Config Override Config Source with ordinal 399
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource EnvConfigSource with ordinal 300
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource PropertiesConfigSource[source=file:/home/edival/Dev/brincos-api-tp1/target/classes/application.properties] with ordinal 250
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource Runtime Values with ordinal 0
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource DefaultValuesConfigSource with ordinal -2147483648
+11-12-2025 21:04:34 DEBUG [or.hi.qu.feature] (Quarkus Main Thread) Hibernate Features Enabled
+11-12-2025 21:04:34 DEBUG [io.qu.hi.orm] (Quarkus Main Thread) List of entities found by Quarkus deployment:
+[br.unitins.topicos1.brincos.model.Brinco, br.unitins.topicos1.brincos.model.Colecao, br.unitins.topicos1.brincos.model.Cor, br.unitins.topicos1.brincos.model.Formato, br.unitins.topicos1.brincos.model.ItemPedido, br.unitins.topicos1.brincos.model.Material, br.unitins.topicos1.brincos.model.Pagamento, br.unitins.topicos1.brincos.model.Pedido, br.unitins.topicos1.brincos.model.Piercing, br.unitins.topicos1.brincos.model.Produto, br.unitins.topicos1.brincos.model.Usuario]
+11-12-2025 21:04:34 DEBUG [io.qu.ar.impl] (Quarkus Main Thread) ArC DI container initialized [beans=189, observers=15]
+11-12-2025 21:04:34 DEBUG [or.hi.jp.in.ut.LogHelper] (Quarkus Main Thread) PersistenceUnitInfo [
+	name: <default>
+	persistence provider classname: null
+	classloader: null
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: JTA
+	PU root URL: null
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names [
+		br.unitins.topicos1.brincos.model.Brinco
+		br.unitins.topicos1.brincos.model.Colecao
+		br.unitins.topicos1.brincos.model.Cor
+		br.unitins.topicos1.brincos.model.DefaultEntity
+		br.unitins.topicos1.brincos.model.Formato
+		br.unitins.topicos1.brincos.model.ItemPedido
+		br.unitins.topicos1.brincos.model.Material
+		br.unitins.topicos1.brincos.model.Pagamento
+		br.unitins.topicos1.brincos.model.Pedido
+		br.unitins.topicos1.brincos.model.Piercing
+		br.unitins.topicos1.brincos.model.Produto
+		br.unitins.topicos1.brincos.model.Usuario
+		br.unitins.topicos1.brincos.model.jpa.ClassificacaoTamanhoConverter
+		br.unitins.topicos1.brincos.model.jpa.PerfilConverter
+		io.quarkus.hibernate.orm.panache.PanacheEntity
+		io.quarkus.hibernate.orm.panache.PanacheEntityBase]
+	Mapping files names []
+	Properties [
+		jakarta.persistence.sql-load-script-source: import.sql
+		hibernate.hbm2ddl.skip_default_import_file: true
+		hibernate.query.plan_cache_max_size: 2048
+		hibernate.default_batch_fetch_size: 16
+		hibernate.query.fail_on_pagination_over_collection_fetch: false
+		hibernate.discriminator.ignore_explicit_for_joined: false
+		hibernate.cache.use_reference_entries: null
+		hibernate.hbm2ddl.charset_name: UTF-8
+		hibernate.cache.use_query_cache: null
+		hibernate.query.in_clause_parameter_padding: true
+		hibernate.cache.use_second_level_cache: null
+		jakarta.persistence.sharedCache.mode: null
+		jakarta.persistence.database-product-name: PostgreSQL
+		hibernate.id.sequence.increment_size_mismatch_strategy: null
+		hibernate.id.optimizer.pooled.preferred: pooled-lo
+		hibernate.order_by.default_null_ordering: none
+		jakarta.persistence.validation.mode: AUTO]
+11-12-2025 21:04:34 DEBUG [or.hi.or.boot] (Quarkus Main Thread) Ignoring 0 XML mappings due to `hibernate.xml_mapping_enabled`
+11-12-2025 21:04:34 DEBUG [or.hi.or.dialect] (Quarkus Main Thread) HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: 13.0
+11-12-2025 21:04:34 DEBUG [or.hi.or.jd.lob] (Quarkus Main Thread) HHH10010002: Disabling contextual LOB creation as connection was null
+11-12-2025 21:04:34 DEBUG [or.hi.or.jdbc] (Quarkus Main Thread) HHH100122: Using default JDBC fetch size: -1
+11-12-2025 21:04:34 DEBUG [or.hi.or.co.pooling] (Quarkus Main Thread) HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database dialect: PostgreSQLDialect
+	Database version: 13.0
+	Default catalog/schema: unknown/unknown
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	JDBC fetch size: undefined/unknown
+	Pool: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+11-12-2025 21:04:34 DEBUG [io.qu.ar.impl] (Quarkus Main Thread) Loaded 85 removed beans lazily
+11-12-2025 21:04:34 DEBUG [or.hi.re.be.co.in.ContainerManagedLifecycleStrategy] (Quarkus Main Thread) Error resolving CDI bean - using fallback
+11-12-2025 21:04:34 DEBUG [or.hi.re.be.co.in.ContainerManagedLifecycleStrategy] (Quarkus Main Thread) Error resolving CDI bean - using fallback
+11-12-2025 21:04:34 DEBUG [or.in.qu.hi.ca.QuarkusInfinispanRegionFactory] (Quarkus Main Thread) Stop region factory
+11-12-2025 21:04:34 DEBUG [or.in.qu.hi.ca.QuarkusInfinispanRegionFactory] (Quarkus Main Thread) Clear region references
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.ArcRecorder] (Quarkus Main Thread) Bean container listener io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder$1 finished in 31 ms
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.AbstractConfigurationImpl] (Quarkus Main Thread) Setting custom LocaleResolver of type io.quarkus.hibernate.validator.runtime.locale.LocaleResolversWrapper
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.AbstractConfigurationImpl] (Quarkus Main Thread) Setting custom BeanMetaDataClassNormalizer of type io.quarkus.hibernate.validator.runtime.ArcProxyBeanMetaDataClassNormalizer
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.AbstractConfigurationImpl] (Quarkus Main Thread) Setting custom ConstraintValidatorFactory of type io.quarkus.hibernate.validator.runtime.ArcConstraintValidatorFactoryImpl
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.AbstractConfigurationImpl] (Quarkus Main Thread) Setting custom TraversableResolver of type io.quarkus.hibernate.validator.runtime.HibernateValidatorRecorder$DelegatingTraversableResolver
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.AbstractConfigurationImpl] (Quarkus Main Thread) Setting custom ClockProvider of type io.quarkus.hibernate.validator.runtime.clockprovider.RuntimeReinitializedDefaultClockProvider
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.AbstractConfigurationImpl] (Quarkus Main Thread) HV000002: Ignoring XML configuration.
+11-12-2025 21:04:34 DEBUG [or.hi.va.re.PlatformResourceBundleLocator] (Quarkus Main Thread) ValidationMessages not found.
+11-12-2025 21:04:34 DEBUG [or.hi.va.re.PlatformResourceBundleLocator] (Quarkus Main Thread) HV000270: Message resource bundle for the pt_BR locale is not available and was not pre-loaded.
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.ValidatorFactoryConfigurationHelper] (Quarkus Main Thread) HV000255: Using io.quarkus.hibernate.validator.runtime.locale.LocaleResolversWrapper as locale resolver.
+11-12-2025 21:04:34 DEBUG [or.hi.va.re.PlatformResourceBundleLocator] (Quarkus Main Thread) ContributorValidationMessages not found.
+11-12-2025 21:04:34 DEBUG [or.hi.va.re.PlatformResourceBundleLocator] (Quarkus Main Thread) HV000270: Message resource bundle for the pt_BR locale is not available and was not pre-loaded.
+11-12-2025 21:04:34 DEBUG [or.hi.va.re.PlatformResourceBundleLocator] (Quarkus Main Thread) org.hibernate.validator.ValidationMessages found.
+11-12-2025 21:04:34 DEBUG [or.hi.va.me.ResourceBundleMessageInterpolator] (Quarkus Main Thread) Loaded expression factory via original TCCL
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.ValidatorFactoryConfigurationHelper] (Quarkus Main Thread) HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.ValidatorFactoryConfigurationHelper] (Quarkus Main Thread) HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.ValidatorFactoryConfigurationHelper] (Quarkus Main Thread) HV000234: Using io.quarkus.hibernate.validator.runtime.HibernateValidatorRecorder$DelegatingTraversableResolver as ValidatorFactory-scoped traversable resolver.
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.ValidatorFactoryConfigurationHelper] (Quarkus Main Thread) HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.ValidatorFactoryConfigurationHelper] (Quarkus Main Thread) HV000234: Using io.quarkus.hibernate.validator.runtime.clockprovider.RuntimeReinitializedDefaultClockProvider as ValidatorFactory-scoped clock provider.
+11-12-2025 21:04:34 DEBUG [or.hi.va.in.en.ValidatorFactoryConfigurationHelper] (Quarkus Main Thread) HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.vertx.serializers.ServerVertxBufferMessageBodyWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.vertx.serializers.ServerMutinyBufferMessageBodyWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.vertx.serializers.ServerVertxAsyncFileMessageBodyWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.vertx.serializers.ServerMutinyAsyncFileMessageBodyWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.jackson.runtime.serialisers.vertx.VertxJsonArrayMessageBodyWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.jackson.runtime.serialisers.vertx.VertxJsonObjectMessageBodyWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.server.runtime.QuarkusServerPathBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.jackson.runtime.serialisers.vertx.VertxJsonArrayMessageBodyReader and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.jackson.runtime.serialisers.vertx.VertxJsonObjectMessageBodyReader and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerStringMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerStringMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerStringMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerStringMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerStringMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerCharArrayMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerByteArrayMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerFormUrlEncodedProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerInputStreamMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.StreamingOutputMessageBodyWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerReaderBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerFileBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerFilePartBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.core.multipart.MultipartMessageBodyWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerPathBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerPathPartBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerStringMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerBooleanMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerCharacterMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerNumberMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerInputStreamMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerReaderBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.server.runtime.QuarkusServerFileBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerByteArrayMessageBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class org.jboss.resteasy.reactive.server.providers.serialisers.ServerDefaultTextPlainBodyHandler and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.server.runtime.exceptionmappers.ForbiddenExceptionMapper and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.jackson.runtime.mappers.BuiltinMismatchedInputExceptionMapper and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.server.runtime.exceptionmappers.AuthenticationRedirectExceptionMapper and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.resteasy.reactive.server.runtime.exceptionmappers.AuthenticationCompletionExceptionMapper and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.qu.ar.ru.BeanContainerImpl] (Quarkus Main Thread) No matching bean found for type class io.quarkus.rest.runtime.__QuarkusInit and qualifiers []. The bean might have been marked as unused and removed during build.
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource BuildTime RunTime Fixed with ordinal 2147483647
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource SysPropConfigSource with ordinal 400
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource Config Override Config Source with ordinal 399
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource EnvConfigSource with ordinal 300
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource PropertiesConfigSource[source=file:/home/edival/Dev/brincos-api-tp1/target/classes/application.properties] with ordinal 250
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource Runtime Values with ordinal 0
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource QuarkusUUIDConfigSource with ordinal -2147483648
+11-12-2025 21:04:34 DEBUG [io.sm.config] (Quarkus Main Thread) SRCFG01006: Loaded ConfigSource DefaultValuesConfigSource with ordinal -2147483648
+11-12-2025 21:04:34 WARN  [io.qu.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.http.cors" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+11-12-2025 21:04:34 WARN  [io.qu.config] (Quarkus Main Thread) The "quarkus.log.file.enable" config property is deprecated and should not be used anymore.
+11-12-2025 21:04:34 WARN  [io.qu.config] (Quarkus Main Thread) The "quarkus.hibernate-orm.database.generation" config property is deprecated and should not be used anymore.
+11-12-2025 21:04:34 DEBUG [co.ar.at.jta] (Quarkus Main Thread) Setting up node identifiers '[quarkus]' for which recovery will be performed
+11-12-2025 21:04:34 DEBUG [io.qu.hi.or.ru.FastBootHibernatePersistenceProvider] (JPA Startup Thread) Located 1 persistence units; checking each
+11-12-2025 21:04:34 DEBUG [io.qu.hi.or.ru.FastBootHibernatePersistenceProvider] (JPA Startup Thread) Checking persistence-unit [name=<default>, explicit-provider=null] against incoming persistence unit name [<default>]
+11-12-2025 21:04:34 DEBUG [io.qu.hi.or.ru.FastBootHibernatePersistenceProvider] (JPA Startup Thread) No PersistenceProvider explicitly requested, assuming Hibernate
+11-12-2025 21:04:34 DEBUG [io.qu.ag.ru.DataSources] (JPA Startup Thread) Started datasource <default> connected to jdbc:postgresql://localhost:5432/topicos1db
+11-12-2025 21:04:34 DEBUG [or.hi.or.jdbc] (JPA Startup Thread) HHH100016: 'hibernate.connection.provider_disables_autocommit' was enabled. This setting should only be enabled when JDBC Connections obtained by Hibernate from the ConnectionProvider have auto-commit disabled. Enabling this setting when connections have auto-commit enabled leads to execution of SQL operations outside of any JDBC transaction.
+11-12-2025 21:04:34 FINE  [or.po.Driver] (agroal-81) Loading driver configuration via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+11-12-2025 21:04:34 FINE  [or.po.Driver] (agroal-81) Connecting with URL: jdbc:postgresql://localhost:5432/topicos1db
+11-12-2025 21:04:34 FINE  [or.po.jd.PgConnection] (agroal-81) PostgreSQL JDBC Driver 42.7.8
+11-12-2025 21:04:34 FINE  [or.po.jd.PgConnection] (agroal-81)   setDefaultFetchSize = 0
+11-12-2025 21:04:34 FINE  [or.po.jd.PgConnection] (agroal-81)   setPrepareThreshold = 5
+11-12-2025 21:04:34 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-81) Trying to establish a protocol version 3 connection to localhost:5432
+11-12-2025 21:04:34 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-81) Receive Buffer Size is 65.536
+11-12-2025 21:04:34 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-81) Send Buffer Size is 1.313.280
+11-12-2025 21:04:34 DEBUG [or.hi.or.jdbc] (JPA Startup Thread) HHH100017: Database:
+	name: PostgreSQL
+	version: 16.3
+	major: 16
+	minor: 3
+11-12-2025 21:04:34 DEBUG [or.hi.or.jdbc] (JPA Startup Thread) HHH100018: Driver:
+	name: PostgreSQL JDBC Driver
+	version: 42.7.8
+	major: 42
+	minor: 7
+	JDBC version: 4.2
+11-12-2025 21:04:34 DEBUG [or.hi.or.jd.lob] (JPA Startup Thread) HHH10010004: Disabling contextual LOB creation as Dialect reported it is not supported
+11-12-2025 21:04:34 DEBUG [or.hi.or.jdbc] (JPA Startup Thread) HHH100122: Using default JDBC fetch size: 0
+11-12-2025 21:04:34 DEBUG [or.hi.or.co.pooling] (JPA Startup Thread) HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database dialect: PostgreSQLDialect
+	Database version: 13.0
+	Default catalog/schema: unknown/unknown
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	JDBC fetch size: undefined/unknown
+	Pool: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+11-12-2025 21:04:34 DEBUG [or.hi.in.SessionFactoryImpl] (JPA Startup Thread) HHH000030: Instantiating factory [3bf448bd-8c2a-4cfb-a270-ba91c4d09b95] with settings: {jakarta.persistence.validation.mode=AUTO, hibernate.format_sql=true, hibernate.hbm2ddl.schema-generation.script.append=false, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_RELEASE_BEFORE_TRANSACTION_COMPLETION, jakarta.persistence.sql-load-script-source=import.sql, hibernate.cache.use_query_cache=true, jakarta.persistence.database-product-name=PostgreSQL, hibernate.hbm2ddl.charset_name=UTF-8, hibernate.xml_mapping_enabled=false, hibernate.highlight_sql=true, hibernate.query.plan_cache_max_size=2048, hibernate.id.sequence.increment_size_mismatch_strategy=NONE, hibernate.hbm2ddl.skip_default_import_file=true, jakarta.persistence.sharedCache.mode=ENABLE_SELECTIVE, hibernate.id.optimizer.pooled.preferred=pooled-lo, org.hibernate.flushMode=AUTO, hibernate.show_sql=true, jakarta.persistence.create-database-schemas=false, hibernate.query.fail_on_pagination_over_collection_fetch=false, hibernate.order_updates=true, hibernate.order_by.default_null_ordering=none, jakarta.persistence.schema-generation.scripts.action=none, hibernate.cdi.extensions=false, hibernate.allow_update_outside_transaction=false, hibernate.boot.allow_jdbc_metadata_access=true, hibernate.cache.use_reference_entries=true, hibernate.cache.use_second_level_cache=true, hibernate.persistenceUnitName=<default>, hibernate.query.in_clause_parameter_padding=true, hibernate.discriminator.ignore_explicit_for_joined=false, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl, hibernate.type.json_format_mapper=org.hibernate.type.format.jackson.JacksonJsonFormatMapper@f249521, hibernate.connection.provider_disables_autocommit=true, hibernate.connection.datasource=io.agroal.pool.DataSource@a5f074a, hibernate.cache.region.factory_class=org.infinispan.quarkus.hibernate.cache.QuarkusInfinispanRegionFactory, jakarta.persistence.schema-generation.database.action=drop-and-create, jakarta.persistence.database-product-version=null, hibernate.default_batch_fetch_size=16}
+11-12-2025 21:04:34 DEBUG [or.in.qu.hi.ca.QuarkusInfinispanRegionFactory] (JPA Startup Thread) Starting Infinispan region factory
+11-12-2025 21:04:34 DEBUG [or.in.qu.hi.ca.QuarkusInfinispanRegionFactory] (JPA Startup Thread) Building timestamps cache region [default-update-timestamps-region]
+11-12-2025 21:04:34 DEBUG [or.in.qu.hi.ca.QuarkusInfinispanRegionFactory] (JPA Startup Thread) Building query results cache region [default-query-results-region]
+11-12-2025 21:04:34 DEBUG [or.hi.HQL_FUNCTIONS] (JPA Startup Thread) Available HQL Functions:
+	abs(NUMERIC arg)
+	Double acos(NUMERIC arg)
+	Double acosh(NUMERIC arg)
+	Boolean any(BOOLEAN predicate)
+	array( ... )
+	array_agg(arg)
+	array_append( ... )
+	array_concat( ... )
+	Boolean array_contains(ARRAY haystackArray, OBJECT needleElementOrArray)
+	Boolean array_contains_nullable(ARRAY haystackArray, OBJECT needleElementOrArray)
+	array_fill(OBJECT element, INTEGER elementCount)
+	array_fill_list(OBJECT element, INTEGER elementCount)
+	array_get(ARRAY array, INTEGER index)
+	Boolean array_includes(ARRAY haystackArray, OBJECT needleArray)
+	Boolean array_includes_nullable(ARRAY haystackArray, OBJECT needleArray)
+	Boolean array_intersects(ARRAY array0, OBJECT array1)
+	Boolean array_intersects_nullable(ARRAY array0, OBJECT array1)
+	Integer array_length(ARRAY array)
+	array_list( ... )
+	Boolean array_overlaps(ARRAY array0, OBJECT array1)
+	Boolean array_overlaps_nullable(ARRAY array0, OBJECT array1)
+	Integer array_position(ARRAY array, OBJECT element[, INTEGER startPosition])
+	int[] array_positions(ARRAY array, OBJECT element)
+	List array_positions_list(ARRAY array, OBJECT element)
+	array_prepend( ... )
+	array_remove( ... )
+	array_remove_index( ... )
+	array_replace(ARRAY array, OBJECT old, OBJECT new)
+	array_set( ... )
+	array_slice(ARRAY array, INTEGER start, INTEGER end)
+	String array_to_string( ... )
+	array_trim( ... )
+	Integer ascii(STRING arg)
+	Double asin(NUMERIC arg)
+	Double asinh(NUMERIC arg)
+	Double atan(NUMERIC arg)
+	Double atan2(NUMERIC arg0, NUMERIC arg1)
+	Double atanh(NUMERIC arg)
+	avg(arg)
+	bit_and(arg)
+	Integer bit_length(STRING_OR_CLOB arg)
+	bit_or(arg)
+	bitand(arg0, arg1)
+	bitnot(arg)
+	bitor(arg0, arg1)
+	bitxor(arg0, arg1)
+	Boolean bool_and(BOOLEAN predicate)
+	Boolean bool_or(BOOLEAN predicate)
+	cast(arg as Type)
+	Double cbrt(NUMERIC arg)
+	ceiling(NUMERIC arg)
+	Character char(INTEGER arg)
+	Integer character_length(STRING_OR_CLOB arg)
+	Character chr(INTEGER arg)
+	coalesce(arg0[, arg1[, ...]])
+	String collate(STRING string as COLLATION collation)
+	(STRING string0[, STRING string1[, ...]])
+	Double corr(NUMERIC arg0, NUMERIC arg1)
+	Double cos(NUMERIC arg)
+	Double cosh(NUMERIC arg)
+	Double cot(NUMERIC arg)
+	Long count([distinct ]{arg|*})
+	Double covar_pop(NUMERIC arg0, NUMERIC arg1)
+	Double covar_samp(NUMERIC arg0, NUMERIC arg1)
+	Double cume_dist([arg0[, ...]])
+	Date current date
+	Time current time
+	Timestamp current timestamp
+	Date current_date
+	Instant current_instant
+	Time current_time
+	Timestamp current_timestamp
+	date_trunc(STRING field, TEMPORAL datetime)
+	dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+	Long|Double datediff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+	Double degrees(NUMERIC arg)
+	Long dense_rank([arg0[, ...]])
+	Boolean every(BOOLEAN predicate)
+	Double exp(NUMERIC arg)
+	extract(TEMPORAL_UNIT field from TEMPORAL arg)
+	first_valueANY value
+	floor(NUMERIC arg)
+	String format(TEMPORAL datetime as STRING pattern)
+	greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+	String hex(arg)
+	ifnull(arg0, arg1)
+	String initcap(arg)
+	String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+	Instant instant
+	String json_array([arg0[, ...]])
+	String json_array_append(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_array_insert(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_arrayagg(arg0[, arg1])
+	Boolean json_exists(IMPLICIT_JSON arg0, STRING arg1)
+	String json_insert(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_mergepatch(IMPLICIT_JSON arg0, IMPLICIT_JSON arg1[, arg2[, ...]])
+	String json_object( ... )
+	String json_objectagg(arg0, arg1[, arg2, arg3])
+	String json_query( ... )
+	String json_remove(IMPLICIT_JSON arg0, STRING arg1)
+	String json_replace(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	String json_set(IMPLICIT_JSON arg0, STRING arg1, ANY arg2)
+	json_value( ... )
+	lagANY value[, INTEGER offset[, ANY default]]
+	last_valueANY value
+	leadANY value[, INTEGER offset[, ANY default]]
+	least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+	String left(STRING string, INTEGER length)
+	length
+	String listagg(STRING arg0, STRING arg1)
+	Double ln(NUMERIC arg)
+	LocalDate local date
+	LocalDateTime local datetime
+	LocalTime local time
+	LocalDate local_date
+	LocalDateTime local_datetime
+	LocalTime local_time
+	Time localtime
+	Timestamp localtimestamp
+	Integer locate(STRING pattern, STRING string[, INTEGER start])
+	Double log(NUMERIC arg0[, NUMERIC arg1])
+	Double log10(NUMERIC arg)
+	String lower(STRING string)
+	String lpad(STRING string, INTEGER length[, STRING padding])
+	String ltrim(STRING string[, STRING characters])
+	Date make_date(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+	Time make_time(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+	Timestamp make_timestamp(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5)
+	Timestamp make_timestamptz(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5[, INTEGER arg6])
+	max(COMPARABLE arg)
+	byte[] md5(arg)
+	Double median(NUMERIC arg)
+	min(COMPARABLE arg)
+	Integer mod(INTEGER arg0, INTEGER arg1)
+	mode()
+	nth_valueANY value, INTEGER nth
+	nullif(arg0, arg1)
+	Integer octet_length(STRING_OR_CLOB arg)
+	OffsetDateTime offset datetime
+	OffsetDateTime offset_datetime
+	Integer ordinal(ENUM arg)
+	String overlay(string placing replacement from start[ for length])
+	String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+	Double percent_rank([arg0[, ...]])
+	percentile_cont(NUMERIC arg)
+	percentile_disc(NUMERIC arg)
+	Double pi
+	Integer position(STRING pattern in STRING string)
+	Double power(NUMERIC arg0, NUMERIC arg1)
+	Double radians(NUMERIC arg)
+	Long rank([arg0[, ...]])
+	Double regr_avgx(NUMERIC arg0, NUMERIC arg1)
+	Double regr_avgy(NUMERIC arg0, NUMERIC arg1)
+	Double regr_count(NUMERIC arg0, NUMERIC arg1)
+	Double regr_intercept(NUMERIC arg0, NUMERIC arg1)
+	Double regr_r2(NUMERIC arg0, NUMERIC arg1)
+	Double regr_slope(NUMERIC arg0, NUMERIC arg1)
+	Double regr_sxx(NUMERIC arg0, NUMERIC arg1)
+	Double regr_sxy(NUMERIC arg0, NUMERIC arg1)
+	Double regr_syy(NUMERIC arg0, NUMERIC arg1)
+	String repeat(STRING string, INTEGER times)
+	String replace(STRING string, STRING pattern, STRING replacement)
+	String right(STRING string, INTEGER length)
+	round(NUMERIC number[, INTEGER places])
+	Long row_number()
+	String rpad(STRING string, INTEGER length[, STRING padding])
+	String rtrim(STRING string[, STRING characters])
+	byte[] sha(arg)
+	Integer sign(NUMERIC arg)
+	Double sin(NUMERIC arg)
+	Double sinh(NUMERIC arg)
+	String soundex(arg)
+	sql
+	Double sqrt(NUMERIC arg)
+	Double stddev(NUMERIC arg)
+	Double stddev_pop(NUMERIC arg)
+	Double stddev_samp(NUMERIC arg)
+	String str(arg)
+	String string(ENUM arg)
+	String substr(STRING string, INTEGER start[, INTEGER length])
+	String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+	sum(arg)
+	Double tan(NUMERIC arg)
+	Double tanh(NUMERIC arg)
+	timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+	Long|Double timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+	String to_char(ANY arg0[, STRING arg1, STRING arg2])
+	Date to_date(STRING arg0[, STRING arg1, STRING arg2])
+	Double to_number(STRING arg0[, STRING arg1, STRING arg2])
+	Timestamp to_timestamp(STRING arg0[, STRING arg1, STRING arg2])
+	String translate(STRING arg0, STRING arg1, STRING arg2)
+	String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+	trunc( ... )
+	truncate( ... )
+	String upper(STRING string)
+	Double var_pop(NUMERIC arg)
+	Double var_samp(NUMERIC arg)
+	Double variance(NUMERIC arg)
+	String xmlagg( ... )
+	String xmlcomment(STRING arg)
+	String xmlconcat( ... )
+	String xmlelement( ... )
+	Boolean xmlexists( ... )
+	String xmlforest( ... )
+	String xmlpi( ... )
+	String xmlquery( ... )
+
+11-12-2025 21:04:34 DEBUG [or.hi.se.in.SessionFactoryServiceRegistryImpl] (JPA Startup Thread) EventListenerRegistry access via ServiceRegistry is deprecated - use 'sessionFactory.getEventEngine().getListenerRegistry()' instead
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mset[0m client_min_messages = WARNING
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m ItemPedido 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FKige1sp3jgvj7mi8wb2koawsxp
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m ItemPedido 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FKee0o3sc4kv012qyau7kvfey3m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m Pagamento 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FKhue45qh96urmvfa1vnhgeuqau
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m Pedido 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FKl7oaldgt9947q8d8ad8g8ph7k
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m Produto 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FK97jhkn5ggjq1q5sxyukn4xl05
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m Produto 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FKcos7106630o4xoq3nhhqxwrgx
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_cores 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FK60u4a3ll90m47fq93s5vpvv76
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_cores 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FKenljybe3lr5iq5ch2hfuyljb4
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_materiais 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FK5cduadej42e99i3c3ao4kddv2
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_materiais 
+       [34mdrop[0m [34mconstraint[0m [34mif[0m [34mexists[0m FK6fpbrb31pquocj9iqdb52pt64
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m Colecao [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m Cor [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m Formato [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m ItemPedido [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m Material [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m Pagamento [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m Pedido [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m Produto [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_cores [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_materiais [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mdrop[0m [34mtable[0m [34mif[0m [34mexists[0m Usuario [34mcascade[0m
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m Colecao (
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        nome [34mvarchar[0m(255),
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m Cor (
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        nome [34mvarchar[0m(255),
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m Formato (
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        nome [34mvarchar[0m(255),
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m ItemPedido (
+        preco [34mfloat[0m(53),
+        quantidade [34minteger[0m,
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        pedido_id [34mbigint[0m [34mnot[0m [34mnull[0m,
+        produto_id [34mbigint[0m [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m Material (
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        nome [34mvarchar[0m(255),
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m Pagamento (
+        metodoPagamento [34msmallint[0m [34mcheck[0m ((metodoPagamento [34mbetween[0m 0 [34mand[0m 3)),
+        total [34mfloat[0m(53),
+        data [34mtimestamp[0m(6),
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        pedido_id [34mbigint[0m [34mnot[0m [34mnull[0m [34munique[0m,
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m Pedido (
+        status [34minteger[0m,
+        total [34mfloat[0m(53),
+        data [34mtimestamp[0m(6),
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        usuario_id [34mbigint[0m [34mnot[0m [34mnull[0m,
+        bairro [34mvarchar[0m(255),
+        cep [34mvarchar[0m(255),
+        cidade [34mvarchar[0m(255),
+        endereco [34mvarchar[0m(255),
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m Produto (
+        estoque [34minteger[0m,
+        preco float4,
+        tamanho float4,
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        id_colecao [34mbigint[0m,
+        id_formato [34mbigint[0m,
+        tamanhoClassificacao [34mbigint[0m [34mcheck[0m ((tamanhoClassificacao [34min[0m (1,2,3))),
+        DTYPE [34mvarchar[0m(31) [34mnot[0m [34mnull[0m [34mcheck[0m ((DTYPE [34min[0m ([36m'Brinco'[0m,[36m'Piercing'[0m))),
+        localAplicacao [34mvarchar[0m(255) [34mcheck[0m ((localAplicacao [34min[0m ([36m'ORELHA'[0m,[36m'NARIZ'[0m,[36m'LINGUA'[0m,[36m'SOBRANCELHA'[0m,[36m'BOCA'[0m,[36m'OUTROS'[0m))),
+        nome [34mvarchar[0m(255),
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m produtos_cores (
+        id [34mbigint[0m [34mnot[0m [34mnull[0m,
+        id_cor [34mbigint[0m [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (id, id_cor)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m produtos_materiais (
+        id [34mbigint[0m [34mnot[0m [34mnull[0m,
+        id_material [34mbigint[0m [34mnot[0m [34mnull[0m,
+        [34mprimary[0m [34mkey[0m (id, id_material)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34mcreate[0m [34mtable[0m Usuario (
+        id [34mbigint[0m generated [34mby[0m [34mdefault[0m [34mas[0m [34midentity[0m,
+        perfil [34mbigint[0m [34mcheck[0m ((perfil [34min[0m (1,2))),
+        email [34mvarchar[0m(255) [34munique[0m,
+        nome [34mvarchar[0m(255),
+        senha [34mvarchar[0m(255),
+        [34mprimary[0m [34mkey[0m (id)
+    )
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m ItemPedido 
+       [34madd[0m [34mconstraint[0m FKige1sp3jgvj7mi8wb2koawsxp 
+       [34mforeign[0m [34mkey[0m (pedido_id) 
+       [34mreferences[0m Pedido
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m ItemPedido 
+       [34madd[0m [34mconstraint[0m FKee0o3sc4kv012qyau7kvfey3m 
+       [34mforeign[0m [34mkey[0m (produto_id) 
+       [34mreferences[0m Produto
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m Pagamento 
+       [34madd[0m [34mconstraint[0m FKhue45qh96urmvfa1vnhgeuqau 
+       [34mforeign[0m [34mkey[0m (pedido_id) 
+       [34mreferences[0m Pedido
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m Pedido 
+       [34madd[0m [34mconstraint[0m FKl7oaldgt9947q8d8ad8g8ph7k 
+       [34mforeign[0m [34mkey[0m (usuario_id) 
+       [34mreferences[0m Usuario
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m Produto 
+       [34madd[0m [34mconstraint[0m FK97jhkn5ggjq1q5sxyukn4xl05 
+       [34mforeign[0m [34mkey[0m (id_colecao) 
+       [34mreferences[0m Colecao
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m Produto 
+       [34madd[0m [34mconstraint[0m FKcos7106630o4xoq3nhhqxwrgx 
+       [34mforeign[0m [34mkey[0m (id_formato) 
+       [34mreferences[0m Formato
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_cores 
+       [34madd[0m [34mconstraint[0m FK60u4a3ll90m47fq93s5vpvv76 
+       [34mforeign[0m [34mkey[0m (id_cor) 
+       [34mreferences[0m Cor
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_cores 
+       [34madd[0m [34mconstraint[0m FKenljybe3lr5iq5ch2hfuyljb4 
+       [34mforeign[0m [34mkey[0m (id) 
+       [34mreferences[0m Produto
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_materiais 
+       [34madd[0m [34mconstraint[0m FK5cduadej42e99i3c3ao4kddv2 
+       [34mforeign[0m [34mkey[0m (id_material) 
+       [34mreferences[0m Material
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) 
+    [34malter[0m [34mtable[0m [34mif[0m [34mexists[0m produtos_materiais 
+       [34madd[0m [34mconstraint[0m FK6fpbrb31pquocj9iqdb52pt64 
+       [34mforeign[0m [34mkey[0m (id) 
+       [34mreferences[0m Produto
+11-12-2025 21:04:34 DEBUG [or.hi.to.sc.in.ex.GenerationTargetToDatabase] (JPA Startup Thread) HHH000476: Executing script [file:/home/edival/Dev/brincos-api-tp1/target/classes/import.sql]
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m usuario(nome, email, senha, perfil) [34mvalues[0m ([36m'Gabriella Mittelstad'[0m, [36m'gaby@gmail.com'[0m, [36m'$2a$10$YGGN3roE/W7MgJUJC2QFWOv5ikaVNbVXA9XvQTLhHM/3tx0LzKsX.'[0m, 1)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m usuario(nome, email, senha, perfil) [34mvalues[0m ([36m'Cliente'[0m, [36m'cliente@gmail.com'[0m, [36m'$2a$10$YGGN3roE/W7MgJUJC2QFWOv5ikaVNbVXA9XvQTLhHM/3tx0LzKsX.'[0m, 2)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m formato(nome) [34mvalues[0m ([36m'Redondo'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m formato(nome) [34mvalues[0m ([36m'Quadrado'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m formato(nome) [34mvalues[0m ([36m'Triangular'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m formato(nome) [34mvalues[0m ([36m'Oval'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m formato(nome) [34mvalues[0m ([36m'Coração'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m cor(nome) [34mvalues[0m ([36m'Dourado'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m cor(nome) [34mvalues[0m ([36m'Prateado'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m cor(nome) [34mvalues[0m ([36m'Cobre'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m cor(nome) [34mvalues[0m ([36m'Azul'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m cor(nome) [34mvalues[0m ([36m'Vermelho'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m colecao(nome) [34mvalues[0m ([36m'Coleção Verão'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m colecao(nome) [34mvalues[0m ([36m'Coleção Inverno'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m colecao(nome) [34mvalues[0m ([36m'Coleção Primavera'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m material(nome) [34mvalues[0m ([36m'Ouro'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m material(nome) [34mvalues[0m ([36m'Prata'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m material(nome) [34mvalues[0m ([36m'Cobre'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m material(nome) [34mvalues[0m ([36m'Aço Inoxidável'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m material(nome) [34mvalues[0m ([36m'Plástico'[0m)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produto(DTYPE, tamanho, id_colecao, id_formato, nome, preco, estoque) [34mvalues[0m ([36m'Brinco'[0m, 0.5, 1, 1, [36m'Brinco Redondo Dourado'[0m, 50.00, 100)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produto(DTYPE, tamanho, id_colecao, id_formato, nome, preco, estoque) [34mvalues[0m ([36m'Brinco'[0m, 0.7, 2, 2, [36m'Brinco Quadrado Prateado'[0m, 75.00, 80)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produto(DTYPE, tamanho, id_colecao, id_formato, nome, preco, estoque) [34mvalues[0m ([36m'Brinco'[0m, 0.3, 2, 3, [36m'Brinco Triangular Cobre'[0m, 45.00, 120)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produto(DTYPE, tamanho, id_colecao, id_formato, nome, preco, estoque) [34mvalues[0m ([36m'Brinco'[0m, 0.4, 3, 4, [36m'Brinco Oval Azul'[0m, 60.00, 90)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produto(DTYPE, tamanho, id_colecao, id_formato, nome, preco, estoque) [34mvalues[0m ([36m'Brinco'[0m, 0.6, 1, 5, [36m'Brinco Coração Vermelho'[0m, 75.50, 70)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_materiais(id, id_material) [34mvalues[0m (1, 1)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_materiais(id, id_material) [34mvalues[0m (2, 2)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_materiais(id, id_material) [34mvalues[0m (3, 3)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_materiais(id, id_material) [34mvalues[0m (4, 4)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_materiais(id, id_material) [34mvalues[0m (5, 5)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_cores(id, id_cor) [34mvalues[0m (1, 1)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_cores(id, id_cor) [34mvalues[0m (2, 2)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_cores(id, id_cor) [34mvalues[0m (3, 3)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_cores(id, id_cor) [34mvalues[0m (4, 4)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m produtos_cores(id, id_cor) [34mvalues[0m (5, 5)
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m pedido(id_usuario, data, total, endereco, cidade, bairro) [34mvalues[0m (2, [36m'2024-06-15 10:30:00'[0m, 95.00, [36m'Rua das Flores, 123'[0m, [36m'São Paulo'[0m, [36m'Jardins'[0m)
+11-12-2025 21:04:34 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "insert into pedido(id_usuario, data, total, endereco, cidade, bairro) values (2, '2024-06-15 10:30:00', 95.00, 'Rua das Flores, 123', 'São Paulo', 'Jardins')" via JDBC [ERROR: column "id_usuario" of relation "pedido" does not exist
+  Posição: 20]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "insert into pedido(id_usuario, data, total, endereco, cidade, bairro) values (2, '2024-06-15 10:30:00', 95.00, 'Rua das Flores, 123', 'São Paulo', 'Jardins')" via JDBC [ERROR: column "id_usuario" of relation "pedido" does not exist
+  Posição: 20]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:93)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:222)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:245)
+	at org.hibernate.tool.schema.internal.AbstractSchemaPopulator.applyImportScript(AbstractSchemaPopulator.java:108)
+	at org.hibernate.tool.schema.internal.AbstractSchemaPopulator.applyImportSources(AbstractSchemaPopulator.java:51)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:172)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:130)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:106)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:237)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:142)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:139)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:350)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:97)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:88)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:178)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:65)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "id_usuario" of relation "pedido" does not exist
+  Posição: 20
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2736)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:525)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:222)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79)
+	... 20 more
+
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m item_pedido(id_pedido, id_produto, preco) [34mvalues[0m (1, 1, 50.00)
+11-12-2025 21:04:34 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "insert into item_pedido(id_pedido, id_produto, preco) values (1, 1, 50.00)" via JDBC [ERROR: relation "item_pedido" does not exist
+  Posição: 13]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "insert into item_pedido(id_pedido, id_produto, preco) values (1, 1, 50.00)" via JDBC [ERROR: relation "item_pedido" does not exist
+  Posição: 13]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:93)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:222)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:245)
+	at org.hibernate.tool.schema.internal.AbstractSchemaPopulator.applyImportScript(AbstractSchemaPopulator.java:108)
+	at org.hibernate.tool.schema.internal.AbstractSchemaPopulator.applyImportSources(AbstractSchemaPopulator.java:51)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:172)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:130)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:106)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:237)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:142)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:139)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:350)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:97)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:88)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:178)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:65)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "item_pedido" does not exist
+  Posição: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2736)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:525)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:222)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79)
+	... 20 more
+
+11-12-2025 21:04:34 DEBUG [or.hi.SQL] (JPA Startup Thread) [34minsert[0m [34minto[0m item_pedido(id_pedido, id_produto, preco) [34mvalues[0m (1, 3, 45.00)
+11-12-2025 21:04:34 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "insert into item_pedido(id_pedido, id_produto, preco) values (1, 3, 45.00)" via JDBC [ERROR: relation "item_pedido" does not exist
+  Posição: 13]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "insert into item_pedido(id_pedido, id_produto, preco) values (1, 3, 45.00)" via JDBC [ERROR: relation "item_pedido" does not exist
+  Posição: 13]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:93)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:222)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:245)
+	at org.hibernate.tool.schema.internal.AbstractSchemaPopulator.applyImportScript(AbstractSchemaPopulator.java:108)
+	at org.hibernate.tool.schema.internal.AbstractSchemaPopulator.applyImportSources(AbstractSchemaPopulator.java:51)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:172)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:130)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:106)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:237)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:142)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:139)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:350)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:97)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:88)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:178)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:65)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "item_pedido" does not exist
+  Posição: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2736)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:525)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:222)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79)
+	... 20 more
+
+11-12-2025 21:04:34 INFO  [io.quarkus] (Quarkus Main Thread) brincos-api-tp1 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.30.1) started in 2.503s. Listening on: http://localhost:8080
+11-12-2025 21:04:34 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+11-12-2025 21:04:34 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+11-12-2025 21:04:34 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-14) Live reload total time: 2.697s 
+11-12-2025 21:04:34 DEBUG [io.qu.ve.co.ru.DevModeExecutorService] (vert.x-eventloop-thread-1) Dev mode executor re-initialized
+11-12-2025 21:04:34 DEBUG [io.sm.jw.util] (vert.x-eventloop-thread-1) SRJWT01010: File token/public_key.pem is not found
+11-12-2025 21:04:34 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=jdk.internal.loader.ClassLoaders$PlatformClassLoader@42bfc980, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=QuarkusClassLoader:Quarkus Base Runtime ClassLoader: DEV for brincos-api-tp1-1.0.0-SNAPSHOT@f78a47e, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=QuarkusClassLoader:Quarkus Runtime ClassLoader: DEV for brincos-api-tp1-1.0.0-SNAPSHOT restart no:7@1856d339, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=jdk.internal.loader.ClassLoaders$PlatformClassLoader@42bfc980, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=QuarkusClassLoader:Quarkus Base Runtime ClassLoader: DEV for brincos-api-tp1-1.0.0-SNAPSHOT@f78a47e, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=jdk.internal.loader.ClassLoaders$PlatformClassLoader@42bfc980, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:04:34 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=QuarkusClassLoader:Quarkus Base Runtime ClassLoader: DEV for brincos-api-tp1-1.0.0-SNAPSHOT@f78a47e, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=QuarkusClassLoader:Quarkus Runtime ClassLoader: DEV for brincos-api-tp1-1.0.0-SNAPSHOT restart no:7@1856d339, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=jdk.internal.loader.ClassLoaders$PlatformClassLoader@42bfc980, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08015: loadSpi, cl=QuarkusClassLoader:Quarkus Base Runtime ClassLoader: DEV for brincos-api-tp1-1.0.0-SNAPSHOT@f78a47e, u=null, sl=java.util.ServiceLoader[io.smallrye.jwt.auth.principal.JWTCallerPrincipalFactory]
+11-12-2025 21:04:34 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08019: AuthContextInfo is: JWTAuthContextInfo{publicVerificationKey=null, secretVerificationKey=null, privateDecryptionKey=null, secretDecryptionKey=null, issuedBy='unitins-jwt', expGracePeriodSecs=0, maxTimeToLiveSecs=null, tokenAge=null, publicKeyLocation='null', publicKeyContent='-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAscXAgstuB3ZJiGyKvPciEG7KDWSqGjiymrwZ0Iw/h3chy+q7QCHDSnbyYVwEJ4gBjFnlx7rRcRY8Tz8xheW+lwhGiQ8A3HmjJwwd9ZBHI4VkCP+lX6Z9pGwC9A5y5zpBeZErTDAeoeiIDEr5zi7R/+xhGTm4Kb69FXXb53KOwU0sXjVGfO0fuolXqSPPTxQLLYkfZgZWIF1D7uK8A4DnZsrJlkAsOgYJJZ6wo8gq4bzCcskpKGuoIJu8hzV8+0cUtDd6Sk59nGMy6lXxKeCr6+LXjyMTD/8wcJteqlKQzqwvmdbxVDeJjdvItcUoD0n+dAdOHMZ7qoXakWA3e6PI7wIDAQAB-----END PUBLIC KEY-----', secretKeyContent='null', decryptionKeyLocation='null', decryptionKeyContent='null', jwksRefreshInterval=60, jwksRetainCacheOnErrorDuration=0, tokenHeader='Authorization', tokenCookie='null', alwaysCheckAuthorization=false, tokenKeyId='null', tokenDecryptionKeyId='null', tokenSchemes=[Bearer], requireNamedPrincipal=true, defaultSubClaim='null', subPath='null', defaultGroupsClaim='null', groupsPath='null', signatureAlgorithm=[RS256], keyEncryptionAlgorithm=[RSA_OAEP, RSA_OAEP_256], keyFormat=ANY, keyProvider=DEFAULT, keyCacheSize=100, keyCacheTimeToLive=10, expectedAudience=null, groupsSeparator=' ', relaxVerificationKeyValidation=true, verifyCertificateThumbprint=false, tlsCertificatePath=null, tlsTrustAll=false, tlsTrustedHosts=null, httpProxyHost=null, httpProxyPort=80}
+11-12-2025 21:04:35 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08035: Checking if the key content is a Base64 encoded PEM key
+11-12-2025 21:04:35 DEBUG [io.sm.jw.au.principal] (vert.x-eventloop-thread-1) SRJWT08036: Key has been created from the encoded PEM key
+11-12-2025 21:04:35 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:04:35 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:04:35 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:04:35 DEBUG [or.hi.or.jdbc] (executor-thread-2) HHH100016: 'hibernate.connection.provider_disables_autocommit' was enabled. This setting should only be enabled when JDBC Connections obtained by Hibernate from the ConnectionProvider have auto-commit disabled. Enabling this setting when connections have auto-commit enabled leads to execution of SQL operations outside of any JDBC transaction.
+11-12-2025 21:04:35 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34mselect[0m
+        p1_0.id,
+        p1_0.bairro,
+        p1_0.cep,
+        p1_0.cidade,
+        p1_0.data,
+        p1_0.endereco,
+        p1_0.status,
+        p1_0.total,
+        p1_0.usuario_id,
+        u1_0.id,
+        u1_0.email,
+        u1_0.nome,
+        u1_0.perfil,
+        u1_0.senha 
+    [34mfrom[0m
+        Pedido p1_0 
+    [34mjoin[0m
+        Usuario u1_0 
+            [34mon[0m u1_0.id=p1_0.usuario_id 
+    [34mwhere[0m
+        p1_0.id=?
+11-12-2025 21:04:35 FINE  [or.po.jd.PgConnection] (executor-thread-2)   setAutoCommit = false
+11-12-2025 21:04:35 FINE  [or.po.jd.PgConnection] (executor-thread-2)   setAutoCommit = true
+11-12-2025 21:04:35 DEBUG [or.hi.se.metrics] (executor-thread-2) HHH000401: Logging session metrics:
+	4303277 ns acquiring 1 JDBC connections
+	4290 ns releasing 1 JDBC connections
+	4456972 ns preparing 1 JDBC statements
+	4153324 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+11-12-2025 21:04:35 DEBUG [WebApplicationException] (executor-thread-2) Application failed the request
+
+Exception in PagamentoServiceImpl.java:52
+	  50          Pedido pedido = pedidoRepository.findById(pagamentoDTO.pedidoId());
+	  51          if (pedido == null) {
+	→ 52              throw new NotFoundException("Pedido com ID " + pagamentoDTO.pedidoId() + " não encontrado.");
+	  53          }
+	  54          
+
+
+
+Exception in PagamentoResource.java:44
+	  42          }
+	  43  
+	→ 44          PagamentoDTOResponse retorno = service.create(dto, email);
+	  45  
+	  46          return Response.status(201).entity(retorno).build();
+
+: jakarta.ws.rs.NotFoundException: Pedido com ID 1 não encontrado.
+	at br.unitins.topicos1.brincos.service.PagamentoServiceImpl.create(PagamentoServiceImpl.java:52)
+	at br.unitins.topicos1.brincos.service.PagamentoServiceImpl_Subclass.create$$superforward(Unknown Source)
+	at br.unitins.topicos1.brincos.service.PagamentoServiceImpl_Subclass$0.apply(Unknown Source)
+	at io.quarkus.arc.impl.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:73)
+	at io.quarkus.arc.impl.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:62)
+	at io.quarkus.narayana.jta.runtime.interceptor.TransactionalInterceptorBase.invokeInOurTx(TransactionalInterceptorBase.java:136)
+	at io.quarkus.narayana.jta.runtime.interceptor.TransactionalInterceptorBase.invokeInOurTx(TransactionalInterceptorBase.java:107)
+	at io.quarkus.narayana.jta.runtime.interceptor.TransactionalInterceptorRequired.doIntercept(TransactionalInterceptorRequired.java:38)
+	at io.quarkus.narayana.jta.runtime.interceptor.TransactionalInterceptorBase.intercept(TransactionalInterceptorBase.java:61)
+	at io.quarkus.narayana.jta.runtime.interceptor.TransactionalInterceptorRequired.intercept(TransactionalInterceptorRequired.java:32)
+	at io.quarkus.narayana.jta.runtime.interceptor.TransactionalInterceptorRequired_Bean.intercept(Unknown Source)
+	at io.quarkus.arc.impl.InterceptorInvocation.invoke(InterceptorInvocation.java:42)
+	at io.quarkus.arc.impl.AroundInvokeInvocationContext.perform(AroundInvokeInvocationContext.java:30)
+	at io.quarkus.arc.impl.InvocationContexts.performAroundInvoke(InvocationContexts.java:27)
+	at br.unitins.topicos1.brincos.service.PagamentoServiceImpl_Subclass.create(Unknown Source)
+	at br.unitins.topicos1.brincos.service.PagamentoServiceImpl_ClientProxy.create(Unknown Source)
+	at br.unitins.topicos1.brincos.resource.PagamentoResource.incluir(PagamentoResource.java:44)
+	at br.unitins.topicos1.brincos.resource.PagamentoResource_Subclass.incluir$$superforward(Unknown Source)
+	at br.unitins.topicos1.brincos.resource.PagamentoResource_Subclass$0.apply(Unknown Source)
+	at io.quarkus.arc.impl.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:73)
+	at io.quarkus.arc.impl.AroundInvokeInvocationContext$NextAroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:97)
+	at io.quarkus.security.runtime.interceptor.SecurityHandler.handle(SecurityHandler.java:27)
+	at io.quarkus.security.runtime.interceptor.RolesAllowedInterceptor.intercept(RolesAllowedInterceptor.java:29)
+	at io.quarkus.security.runtime.interceptor.RolesAllowedInterceptor_Bean.intercept(Unknown Source)
+	at io.quarkus.arc.impl.InterceptorInvocation.invoke(InterceptorInvocation.java:42)
+	at io.quarkus.arc.impl.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:70)
+	at io.quarkus.arc.impl.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:62)
+	at io.quarkus.resteasy.reactive.server.runtime.StandardSecurityCheckInterceptor.intercept(StandardSecurityCheckInterceptor.java:47)
+	at io.quarkus.resteasy.reactive.server.runtime.StandardSecurityCheckInterceptor$RolesAllowedInterceptor_Bean.intercept(Unknown Source)
+	at io.quarkus.arc.impl.InterceptorInvocation.invoke(InterceptorInvocation.java:42)
+	at io.quarkus.arc.impl.AroundInvokeInvocationContext.perform(AroundInvokeInvocationContext.java:30)
+	at io.quarkus.arc.impl.InvocationContexts.performAroundInvoke(InvocationContexts.java:27)
+	at br.unitins.topicos1.brincos.resource.PagamentoResource_Subclass.incluir(Unknown Source)
+	at br.unitins.topicos1.brincos.resource.PagamentoResource$quarkusrestinvoker$incluir_b9425a07ea930a8b56d7df065bed3675db7ce31e.invoke(Unknown Source)
+	at org.jboss.resteasy.reactive.server.handlers.InvocationHandler.handle(InvocationHandler.java:29)
+	at io.quarkus.resteasy.reactive.server.runtime.QuarkusResteasyReactiveRequestContext.invokeHandler(QuarkusResteasyReactiveRequestContext.java:183)
+	at org.jboss.resteasy.reactive.common.core.AbstractResteasyReactiveContext.run(AbstractResteasyReactiveContext.java:147)
+	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$15.runWith(VertxCoreRecorder.java:645)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.doRunWith(EnhancedQueueExecutor.java:2651)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2630)
+	at org.jboss.threads.EnhancedQueueExecutor.runThreadBody(EnhancedQueueExecutor.java:1622)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1589)
+	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:11)
+	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:11)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+11-12-2025 21:04:36 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:04:36 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:04:36 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:04:36 DEBUG [io.ne.ha.co.ht.we.WebSocketServerHandshaker] (vert.x-eventloop-thread-0) [id: 0x532134be, L:/127.0.0.1:8080 - R:/127.0.0.1:53640] WebSocket version V13 server handshake
+11-12-2025 21:04:36 DEBUG [io.ne.ha.co.ht.we.WebSocketServerHandshaker] (vert.x-eventloop-thread-0) WebSocket version 13 server handshake key: CSb31agmj9zrLrrJ+9S7oA==, response: o2kHKlDLSWzS91lck8j16dJIq2o=
+11-12-2025 21:04:36 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:04:36 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:04:36 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:04:37 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:04:37 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:04:37 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:04:37 DEBUG [io.ne.ha.co.ht.we.WebSocketServerHandshaker] (vert.x-eventloop-thread-1) [id: 0x614ca4c8, L:/127.0.0.1:8080 - R:/127.0.0.1:53650] WebSocket version V13 server handshake
+11-12-2025 21:04:37 DEBUG [io.ne.ha.co.ht.we.WebSocketServerHandshaker] (vert.x-eventloop-thread-1) WebSocket version 13 server handshake key: zxOVU3ylnjNjiyIT6Zr47Q==, response: jfZDGTIts0v2rrIFtgx5djHBsnk=
+11-12-2025 21:04:37 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:04:37 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:04:37 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available

@@ -1,0 +1,59 @@
+PlantUML:
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+' Classe base Produto
+abstract class Produto {
+  - id: Long
+  - nome: String
+  - preco: Float
+  - estoque: Integer
+  - tamanho: Float
+  - forma: String
+}
+
+' Subclasse Brinco
+class Brinco {
+}
+
+class Piercing {
+}
+
+' Outras classes
+class Material {
+  - nome: String
+}
+
+class Formato {
+  - nome: String
+}
+
+class Cor {
+  - nome: String
+}
+
+
+class Colecao {
+  - nome: String
+}
+
+enum Local{
+  ORELHA: int
+  NARIZ: int
+  LINGUA: int
+  SOBRANCELHA: int
+  BOCA: int
+}
+
+' Relacionamentos
+Produto <|-up- Brinco
+Produto <|-up- Piercing
+Produto "*" --> "*" Material
+Produto "*" --> "*" Cor
+Produto "*" --> "1" Formato
+Produto "*" --> "1" Colecao
+Piercing "*" --> "1" Local
+
+@enduml

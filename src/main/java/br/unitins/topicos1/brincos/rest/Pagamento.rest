@@ -1,0 +1,58 @@
+### Fazer login para obter o token JWT
+# @name Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123456"
+}
+
+### Variável para armazenar o token
+@TOKEN = {{Login.response.body.token}}
+
+
+### Criar pagamento para o pedido (PIX)
+POST http://localhost:8080/pagamentos
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "pedidoId": 2,
+    "metodoPagamentoId": 1
+}
+
+### Criar pagamento com ID fixo (substitua 1 pelo ID real do pedido)
+POST http://localhost:8080/pagamentos
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "metodoPagamento": "CARTAO_CREDITO",
+    "pedidoId": 1
+}
+
+### Buscar todos os pagamentos
+GET http://localhost:8080/pagamentos
+
+### Exemplo com diferentes métodos de pagamento
+
+### Pagamento com BOLETO
+POST http://localhost:8080/pagamentos
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "total": 150.00,
+    "metodoPagamento": "BOLETO"
+}
+
+### Pagamento com CARTAO_DEBITO
+POST http://localhost:8080/pagamentos
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "total": 150.00,
+    "metodoPagamento": "CARTAO_DEBITO"
+}

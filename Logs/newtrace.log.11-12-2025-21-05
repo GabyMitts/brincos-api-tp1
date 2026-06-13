@@ -1,0 +1,424 @@
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:09 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.ne.ha.co.ht.we.WebSocketServerHandshaker] (vert.x-eventloop-thread-0) [id: 0x5b68dd65, L:/127.0.0.1:8080 - R:/127.0.0.1:38828] WebSocket version V13 server handshake
+11-12-2025 21:05:10 DEBUG [io.ne.ha.co.ht.we.WebSocketServerHandshaker] (vert.x-eventloop-thread-0) WebSocket version 13 server handshake key: T6bqQAi/emttv5UDHlR6Vg==, response: xDFBxn4c8ol2IBz370eo8DtX/Jw=
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:10 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:10 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:11 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:11 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [or.ec.ae.in.im.sy.na.NamedLockFactoryAdapterFactoryImpl] (ForkJoinPool.commonPool-worker-28) Created adapter factory; available factories [rwlock-local, semaphore-local, noop, file-lock]; available name mappers [file-static, gav, static, discriminating, file-hgav, file-gav]
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [or.ec.ae.in.im.DefaultLocalRepositoryProvider] (ForkJoinPool.commonPool-worker-28) Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/edival/.m2/repository
+11-12-2025 21:05:12 DEBUG [or.ec.ae.in.im.sy.na.NamedLockFactoryAdapterFactoryImpl] (ForkJoinPool.commonPool-worker-28) Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+11-12-2025 21:05:12 DEBUG [or.ec.ae.in.im.DefaultUpdatePolicyAnalyzer] (ForkJoinPool.commonPool-worker-28) Skipped remote request for io.quarkus.registry:quarkus-registry-descriptor:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:12 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06005: Authorization header was null
+11-12-2025 21:05:12 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-1) Bearer access token is not available
+11-12-2025 21:05:12 DEBUG [or.ec.ae.in.im.DefaultUpdatePolicyAnalyzer] (ForkJoinPool.commonPool-worker-28) Skipped remote request for io.quarkus.registry:quarkus-platforms:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date
+11-12-2025 21:05:12 DEBUG [or.ec.ae.in.im.DefaultUpdatePolicyAnalyzer] (ForkJoinPool.commonPool-worker-28) Skipped remote request for io.quarkus.registry:quarkus-platforms:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date
+11-12-2025 21:05:12 DEBUG [or.ec.ae.in.im.DefaultUpdatePolicyAnalyzer] (ForkJoinPool.commonPool-worker-28) Skipped remote request for io.quarkus.registry:quarkus-non-platform-extensions:1.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date
+11-12-2025 21:05:13 FINE  [or.po.Driver] (agroal-81) Connecting with URL: jdbc:postgresql://localhost:5432/topicos1db
+11-12-2025 21:05:13 FINE  [or.po.jd.PgConnection] (agroal-81) PostgreSQL JDBC Driver 42.7.8
+11-12-2025 21:05:13 FINE  [or.po.jd.PgConnection] (agroal-81)   setDefaultFetchSize = 0
+11-12-2025 21:05:13 FINE  [or.po.jd.PgConnection] (agroal-81)   setPrepareThreshold = 5
+11-12-2025 21:05:13 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-81) Trying to establish a protocol version 3 connection to localhost:5432
+11-12-2025 21:05:13 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-81) Receive Buffer Size is 65.536
+11-12-2025 21:05:13 FINE  [or.po.co.v3.ConnectionFactoryImpl] (agroal-81) Send Buffer Size is 1.313.280
+11-12-2025 21:05:43 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-1) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 21:05:43 DEBUG [or.hi.or.jdbc] (executor-thread-2) HHH100016: 'hibernate.connection.provider_disables_autocommit' was enabled. This setting should only be enabled when JDBC Connections obtained by Hibernate from the ConnectionProvider have auto-commit disabled. Enabling this setting when connections have auto-commit enabled leads to execution of SQL operations outside of any JDBC transaction.
+11-12-2025 21:05:43 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34mselect[0m
+        u1_0.id,
+        u1_0.email,
+        u1_0.nome,
+        u1_0.perfil,
+        u1_0.senha 
+    [34mfrom[0m
+        Usuario u1_0 
+    [34mwhere[0m
+        u1_0.email=? 
+    [34mfetch[0m
+        [34mfirst[0m ? [34mrows[0m [34monly[0m
+11-12-2025 21:05:43 FINE  [or.po.jd.PgConnection] (executor-thread-2)   setAutoCommit = false
+11-12-2025 21:05:43 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34mselect[0m
+        p1_0.id,
+        p1_0.DTYPE,
+        c1_0.id,
+        c1_0.nome,
+        p1_0.estoque,
+        f1_0.id,
+        f1_0.nome,
+        p1_0.nome,
+        p1_0.preco,
+        p1_0.tamanho,
+        p1_0.tamanhoClassificacao,
+        p1_0.localAplicacao 
+    [34mfrom[0m
+        Produto p1_0 
+    [34mleft[0m [34mjoin[0m
+        Colecao c1_0 
+            [34mon[0m c1_0.id=p1_0.id_colecao 
+    [34mleft[0m [34mjoin[0m
+        Formato f1_0 
+            [34mon[0m f1_0.id=p1_0.id_formato 
+    [34mwhere[0m
+        p1_0.id=?
+11-12-2025 21:05:43 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34mselect[0m
+        p1_0.id,
+        p1_0.DTYPE,
+        c1_0.id,
+        c1_0.nome,
+        p1_0.estoque,
+        f1_0.id,
+        f1_0.nome,
+        p1_0.nome,
+        p1_0.preco,
+        p1_0.tamanho,
+        p1_0.tamanhoClassificacao,
+        p1_0.localAplicacao 
+    [34mfrom[0m
+        Produto p1_0 
+    [34mleft[0m [34mjoin[0m
+        Colecao c1_0 
+            [34mon[0m c1_0.id=p1_0.id_colecao 
+    [34mleft[0m [34mjoin[0m
+        Formato f1_0 
+            [34mon[0m f1_0.id=p1_0.id_formato 
+    [34mwhere[0m
+        p1_0.id=?
+11-12-2025 21:05:43 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34minsert[0m 
+    [34minto[0m
+        Pedido
+        (bairro, cep, cidade, data, endereco, status, total, usuario_id) 
+    [34mvalues[0m
+        (?, ?, ?, ?, ?, ?, ?, ?)
+11-12-2025 21:05:43 DEBUG [or.hi.id.IdentifierGeneratorHelper] (executor-thread-2) Extracted generated values for entity [br.unitins.topicos1.brincos.model.Pedido]: [1]
+11-12-2025 21:05:43 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34minsert[0m 
+    [34minto[0m
+        ItemPedido
+        (pedido_id, preco, produto_id, quantidade) 
+    [34mvalues[0m
+        (?, ?, ?, ?)
+11-12-2025 21:05:43 DEBUG [or.hi.id.IdentifierGeneratorHelper] (executor-thread-2) Extracted generated values for entity [br.unitins.topicos1.brincos.model.ItemPedido]: [1]
+11-12-2025 21:05:43 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34minsert[0m 
+    [34minto[0m
+        ItemPedido
+        (pedido_id, preco, produto_id, quantidade) 
+    [34mvalues[0m
+        (?, ?, ?, ?)
+11-12-2025 21:05:43 DEBUG [or.hi.id.IdentifierGeneratorHelper] (executor-thread-2) Extracted generated values for entity [br.unitins.topicos1.brincos.model.ItemPedido]: [2]
+11-12-2025 21:05:43 DEBUG [or.hi.ev.in.AbstractFlushingEventListener] (executor-thread-2) Flushed: 0 insertions, 2 updates, 0 deletions to 10 objects
+11-12-2025 21:05:43 DEBUG [or.hi.ev.in.AbstractFlushingEventListener] (executor-thread-2) Flushed: 1 (re)creations, 0 updates, 0 removals to 7 collections
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) Listing entities:
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Formato{nome=Redondo, id=1}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Usuario{senha=$2a$10$YGGN3roE/W7MgJUJC2QFWOv5ikaVNbVXA9XvQTLhHM/3tx0LzKsX., nome=Gabriella Mittelstad, id=1, email=gaby@gmail.com, perfil=Admin}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Brinco{preco=50.0, estoque=99, tamanho=0.5, material=<uninitialized>, tamanhoClassificacao=null, cor=<uninitialized>, formato=br.unitins.topicos1.brincos.model.Formato#1, colecao=br.unitins.topicos1.brincos.model.Colecao#1, nome=Brinco Redondo Dourado, id=1}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Brinco{preco=45.0, estoque=119, tamanho=0.3, material=<uninitialized>, tamanhoClassificacao=null, cor=<uninitialized>, formato=br.unitins.topicos1.brincos.model.Formato#3, colecao=br.unitins.topicos1.brincos.model.Colecao#2, nome=Brinco Triangular Cobre, id=3}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Colecao{produtos=<uninitialized>, nome=Coleção Inverno, id=2}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.ItemPedido{preco=45.0, produto=br.unitins.topicos1.brincos.model.Produto#3, pedido=br.unitins.topicos1.brincos.model.Pedido#1, id=2, quantidade=1}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Pedido{itensPedido=[br.unitins.topicos1.brincos.model.ItemPedido#1, br.unitins.topicos1.brincos.model.ItemPedido#2], cidade=São Paulo, total=95.0, data=2025-12-11T21:05:43.610902279, endereco=Rua das Flores, 123, bairro=Centro, usuario=br.unitins.topicos1.brincos.model.Usuario#1, id=1, cep=01234-567, status=null}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.ItemPedido{preco=50.0, produto=br.unitins.topicos1.brincos.model.Produto#1, pedido=br.unitins.topicos1.brincos.model.Pedido#1, id=1, quantidade=1}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Colecao{produtos=<uninitialized>, nome=Coleção Verão, id=1}
+11-12-2025 21:05:43 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-2) br.unitins.topicos1.brincos.model.Formato{nome=Triangular, id=3}
+11-12-2025 21:05:43 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34mupdate[0m
+        Produto 
+    [34mset[0m
+        id_colecao=?,
+        estoque=?,
+        id_formato=?,
+        nome=?,
+        preco=?,
+        tamanho=?,
+        tamanhoClassificacao=? 
+    [34mwhere[0m
+        id=?
+11-12-2025 21:05:43 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34mupdate[0m
+        Produto 
+    [34mset[0m
+        id_colecao=?,
+        estoque=?,
+        id_formato=?,
+        nome=?,
+        preco=?,
+        tamanho=?,
+        tamanhoClassificacao=? 
+    [34mwhere[0m
+        id=?
+11-12-2025 21:05:43 FINE  [or.po.jd.PgConnection] (executor-thread-2)   setAutoCommit = true
+11-12-2025 21:05:43 DEBUG [or.hi.se.metrics] (executor-thread-2) HHH000401: Logging session metrics:
+	841740 ns acquiring 1 JDBC connections
+	4836 ns releasing 1 JDBC connections
+	1257151 ns preparing 8 JDBC statements
+	11188566 ns executing 8 JDBC statements
+	0 ns executing 0 JDBC batches
+	50900 ns performing 8 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	40025924 ns executing 1 flushes (flushing a total of 10 entities and 7 collections)
+	8893 ns executing 1 pre-partial-flushes
+	6007 ns executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+

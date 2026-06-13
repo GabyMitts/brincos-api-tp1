@@ -1,0 +1,38 @@
+
+############ LOGIN ############
+# @name Login
+POST http://localhost:8080/auth
+Content-Type: application/json
+
+{
+    "login": "gaby@gmail.com",
+    "senha": "123"
+}
+
+@TOKEN = {{Login.response.body.token}}
+
+
+
+
+########### GET ALL BRINCOS ###########
+GET http://localhost:8080/piercings
+
+
+########### GET BRINCO BY ID ###########
+GET http://localhost:8080/piercings/1
+
+########### CREATE NEW BRINCO ###########
+POST http://localhost:8080/piercings
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "nome": "Piercing Luxo",
+    "tamanho": 10,
+    "idCor": 1, 
+    "idFormato": 1,
+    "idMaterial": 1,
+    "estoque": 50,
+    "preco": 29.90,
+    "localAplicacao": "ORELHA"
+}

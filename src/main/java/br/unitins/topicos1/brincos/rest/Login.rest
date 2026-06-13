@@ -1,0 +1,16 @@
+
+# @name Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123456"
+}
+
+@TOKEN = {{Login.response.body.token}}
+
+############ GET ALL USUARIO ############
+GET http://localhost:8080/auth/me
+Authorization: Bearer {{TOKEN}}
+

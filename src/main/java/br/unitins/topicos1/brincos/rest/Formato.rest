@@ -1,0 +1,30 @@
+
+############ LOGIN ############
+# @name Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123"
+}
+
+@TOKEN = {{Login.response.body.token}}
+
+
+
+############ GET ALL FORMATO ############
+GET http://localhost:8080/formato
+
+
+############ GET FORMATO BY ID ############
+GET http://localhost:8080/formato/1
+
+############ CREATE NEW FORMATO ############
+POST http://localhost:8080/formato
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "nome": "Redondo"
+}

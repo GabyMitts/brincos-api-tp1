@@ -1,0 +1,216 @@
+11-12-2025 20:46:04 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 20:46:04 DEBUG [or.hi.or.jdbc] (executor-thread-1) HHH100016: 'hibernate.connection.provider_disables_autocommit' was enabled. This setting should only be enabled when JDBC Connections obtained by Hibernate from the ConnectionProvider have auto-commit disabled. Enabling this setting when connections have auto-commit enabled leads to execution of SQL operations outside of any JDBC transaction.
+11-12-2025 20:46:04 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34mselect[0m
+        u1_0.id,
+        u1_0.email,
+        u1_0.nome,
+        u1_0.perfil,
+        u1_0.senha 
+    [34mfrom[0m
+        Usuario u1_0 
+    [34mwhere[0m
+        u1_0.email=? 
+    [34mfetch[0m
+        [34mfirst[0m ? [34mrows[0m [34monly[0m
+11-12-2025 20:46:04 FINE  [or.po.jd.PgConnection] (executor-thread-1)   setAutoCommit = false
+11-12-2025 20:46:04 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34mselect[0m
+        p1_0.id,
+        p1_0.DTYPE,
+        c1_0.id,
+        c1_0.nome,
+        p1_0.estoque,
+        f1_0.id,
+        f1_0.nome,
+        p1_0.nome,
+        p1_0.preco,
+        p1_0.tamanho,
+        p1_0.tamanhoClassificacao,
+        p1_0.localAplicacao 
+    [34mfrom[0m
+        Produto p1_0 
+    [34mleft[0m [34mjoin[0m
+        Colecao c1_0 
+            [34mon[0m c1_0.id=p1_0.id_colecao 
+    [34mleft[0m [34mjoin[0m
+        Formato f1_0 
+            [34mon[0m f1_0.id=p1_0.id_formato 
+    [34mwhere[0m
+        p1_0.id=?
+11-12-2025 20:46:04 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34mselect[0m
+        p1_0.id,
+        p1_0.DTYPE,
+        c1_0.id,
+        c1_0.nome,
+        p1_0.estoque,
+        f1_0.id,
+        f1_0.nome,
+        p1_0.nome,
+        p1_0.preco,
+        p1_0.tamanho,
+        p1_0.tamanhoClassificacao,
+        p1_0.localAplicacao 
+    [34mfrom[0m
+        Produto p1_0 
+    [34mleft[0m [34mjoin[0m
+        Colecao c1_0 
+            [34mon[0m c1_0.id=p1_0.id_colecao 
+    [34mleft[0m [34mjoin[0m
+        Formato f1_0 
+            [34mon[0m f1_0.id=p1_0.id_formato 
+    [34mwhere[0m
+        p1_0.id=?
+11-12-2025 20:46:04 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34minsert[0m 
+    [34minto[0m
+        Pedido
+        (bairro, cep, cidade, data, endereco, status, total, usuario_id) 
+    [34mvalues[0m
+        (?, ?, ?, ?, ?, ?, ?, ?)
+11-12-2025 20:46:04 DEBUG [or.hi.id.IdentifierGeneratorHelper] (executor-thread-1) Extracted generated values for entity [br.unitins.topicos1.brincos.model.Pedido]: [1]
+11-12-2025 20:46:04 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34minsert[0m 
+    [34minto[0m
+        ItemPedido
+        (pedido_id, preco, produto_id, quantidade) 
+    [34mvalues[0m
+        (?, ?, ?, ?)
+11-12-2025 20:46:04 DEBUG [or.hi.id.IdentifierGeneratorHelper] (executor-thread-1) Extracted generated values for entity [br.unitins.topicos1.brincos.model.ItemPedido]: [1]
+11-12-2025 20:46:04 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34minsert[0m 
+    [34minto[0m
+        ItemPedido
+        (pedido_id, preco, produto_id, quantidade) 
+    [34mvalues[0m
+        (?, ?, ?, ?)
+11-12-2025 20:46:04 DEBUG [or.hi.id.IdentifierGeneratorHelper] (executor-thread-1) Extracted generated values for entity [br.unitins.topicos1.brincos.model.ItemPedido]: [2]
+11-12-2025 20:46:04 DEBUG [or.hi.ev.in.AbstractFlushingEventListener] (executor-thread-1) Flushed: 0 insertions, 2 updates, 0 deletions to 10 objects
+11-12-2025 20:46:04 DEBUG [or.hi.ev.in.AbstractFlushingEventListener] (executor-thread-1) Flushed: 1 (re)creations, 0 updates, 0 removals to 7 collections
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) Listing entities:
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.Formato{nome=Redondo, id=1}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.Usuario{senha=$2a$10$YGGN3roE/W7MgJUJC2QFWOv5ikaVNbVXA9XvQTLhHM/3tx0LzKsX., nome=Gabriella Mittelstad, id=1, email=gaby@gmail.com, perfil=Admin}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.Brinco{preco=50.0, estoque=99, tamanho=0.5, material=<uninitialized>, tamanhoClassificacao=null, cor=<uninitialized>, formato=br.unitins.topicos1.brincos.model.Formato#1, colecao=br.unitins.topicos1.brincos.model.Colecao#1, nome=Brinco Redondo Dourado, id=1}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.Brinco{preco=45.0, estoque=119, tamanho=0.3, material=<uninitialized>, tamanhoClassificacao=null, cor=<uninitialized>, formato=br.unitins.topicos1.brincos.model.Formato#3, colecao=br.unitins.topicos1.brincos.model.Colecao#2, nome=Brinco Triangular Cobre, id=3}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.Colecao{produtos=<uninitialized>, nome=Coleção Inverno, id=2}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.ItemPedido{preco=45.0, produto=br.unitins.topicos1.brincos.model.Produto#3, pedido=br.unitins.topicos1.brincos.model.Pedido#1, id=2, quantidade=1}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.Pedido{itensPedido=[br.unitins.topicos1.brincos.model.ItemPedido#1, br.unitins.topicos1.brincos.model.ItemPedido#2], cidade=São Paulo, total=95.0, data=2025-12-11T20:46:04.427897310, endereco=Rua das Flores, 123, bairro=Centro, usuario=br.unitins.topicos1.brincos.model.Usuario#1, id=1, cep=01234-567, status=null}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.ItemPedido{preco=50.0, produto=br.unitins.topicos1.brincos.model.Produto#1, pedido=br.unitins.topicos1.brincos.model.Pedido#1, id=1, quantidade=1}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.Colecao{produtos=<uninitialized>, nome=Coleção Verão, id=1}
+11-12-2025 20:46:04 DEBUG [or.hi.in.ut.EntityPrinter] (executor-thread-1) br.unitins.topicos1.brincos.model.Formato{nome=Triangular, id=3}
+11-12-2025 20:46:04 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34mupdate[0m
+        Produto 
+    [34mset[0m
+        id_colecao=?,
+        estoque=?,
+        id_formato=?,
+        nome=?,
+        preco=?,
+        tamanho=?,
+        tamanhoClassificacao=? 
+    [34mwhere[0m
+        id=?
+11-12-2025 20:46:04 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34mupdate[0m
+        Produto 
+    [34mset[0m
+        id_colecao=?,
+        estoque=?,
+        id_formato=?,
+        nome=?,
+        preco=?,
+        tamanho=?,
+        tamanhoClassificacao=? 
+    [34mwhere[0m
+        id=?
+11-12-2025 20:46:04 FINE  [or.po.jd.PgConnection] (executor-thread-1)   setAutoCommit = true
+11-12-2025 20:46:04 DEBUG [or.hi.se.metrics] (executor-thread-1) HHH000401: Logging session metrics:
+	899294 ns acquiring 1 JDBC connections
+	7889 ns releasing 1 JDBC connections
+	1818751 ns preparing 8 JDBC statements
+	10279726 ns executing 8 JDBC statements
+	0 ns executing 0 JDBC batches
+	478733 ns performing 8 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	74962143 ns executing 1 flushes (flushing a total of 10 entities and 7 collections)
+	6633 ns executing 1 pre-partial-flushes
+	3391 ns executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+
+11-12-2025 20:46:21 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 20:46:21 DEBUG [or.hi.or.jdbc] (executor-thread-1) HHH100016: 'hibernate.connection.provider_disables_autocommit' was enabled. This setting should only be enabled when JDBC Connections obtained by Hibernate from the ConnectionProvider have auto-commit disabled. Enabling this setting when connections have auto-commit enabled leads to execution of SQL operations outside of any JDBC transaction.
+11-12-2025 20:46:21 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34mselect[0m
+        u1_0.id,
+        u1_0.email,
+        u1_0.nome,
+        u1_0.perfil,
+        u1_0.senha 
+    [34mfrom[0m
+        Usuario u1_0 
+    [34mwhere[0m
+        u1_0.email=? 
+    [34mfetch[0m
+        [34mfirst[0m ? [34mrows[0m [34monly[0m
+11-12-2025 20:46:21 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34mselect[0m
+        p1_0.id,
+        p1_0.bairro,
+        p1_0.cep,
+        p1_0.cidade,
+        p1_0.data,
+        p1_0.endereco,
+        p1_0.status,
+        p1_0.total,
+        p1_0.usuario_id 
+    [34mfrom[0m
+        Pedido p1_0 
+    [34mwhere[0m
+        p1_0.usuario_id=?
+11-12-2025 20:46:21 DEBUG [or.hi.SQL] (executor-thread-1) 
+    [34mselect[0m
+        ip1_0.pedido_id,
+        ip1_0.id,
+        ip1_0.preco,
+        ip1_0.produto_id,
+        p2_0.id,
+        p2_0.DTYPE,
+        c1_0.id,
+        c1_0.nome,
+        p2_0.estoque,
+        f1_0.id,
+        f1_0.nome,
+        p2_0.nome,
+        p2_0.preco,
+        p2_0.tamanho,
+        p2_0.tamanhoClassificacao,
+        p2_0.localAplicacao,
+        ip1_0.quantidade 
+    [34mfrom[0m
+        ItemPedido ip1_0 
+    [34mleft[0m [34mjoin[0m
+        Produto p2_0 
+            [34mon[0m p2_0.id=ip1_0.produto_id 
+    [34mleft[0m [34mjoin[0m
+        Colecao c1_0 
+            [34mon[0m c1_0.id=p2_0.id_colecao 
+    [34mleft[0m [34mjoin[0m
+        Formato f1_0 
+            [34mon[0m f1_0.id=p2_0.id_formato 
+    [34mwhere[0m
+        ip1_0.pedido_id=?
+11-12-2025 20:46:21 DEBUG [or.hi.se.metrics] (executor-thread-1) HHH000401: Logging session metrics:
+	127511 ns acquiring 3 JDBC connections
+	88957 ns releasing 3 JDBC connections
+	531164 ns preparing 3 JDBC statements
+	2549722 ns executing 3 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+

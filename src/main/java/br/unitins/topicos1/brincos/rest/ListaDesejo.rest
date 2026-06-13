@@ -1,0 +1,36 @@
+############ LOGIN ############
+# @name Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123456"
+}
+
+@TOKEN = {{Login.response.body.token}}
+
+############################
+
+############ GET ALL LISTA DESEJO ############
+GET http://localhost:8080/listadesejo
+Authorization: Bearer {{TOKEN}}
+
+
+############ GET LISTA DESEJO BY ID ############
+GET http://localhost:8080/listadesejo/1
+Authorization: Bearer {{TOKEN}}
+
+############ CREATE NEW LISTA DESEJO ############
+
+
+@TOKEN2 = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ1bml0aW5zLWp3dCIsImV4cCI6MTc4MTM4NjE3OCwic3ViIjoianVsaWFuYUBnbWFpbC5jb20iLCJwZXJmaWwiOiJDbGllbnQiLCJleHBpcmVUaW1lIjoxNzgxMzg2MTc4LCJOb21lIjoiSnVsaWFuYSBPbGl2ZWlyYSIsImdyb3VwcyI6WyJDbGllbnQiXSwiZW1haWwiOiJqdWxpYW5hQGdtYWlsLmNvbSIsImlhdCI6MTc4MTI5OTc3OCwianRpIjoiNjkzNDA0NmEtODk5Yi00MDhjLWEyMTEtZDcyNzJhZWU4ZDdiIn0.ckMV2IQB5zTWYAdgTEcS-34zeg6ZQiTW5UddZhyK1r53ecZbgasrCK5Fy7zJRksSCq6PXzxOVf9kjz7YKfzZPZhWeUdmzEV_q2vrF7bcy3fzuorivtTZ-eMz3wb9lbPatkQOS7teQbLH1vgrXXXcXjrCI29OzCYQ9s7fKMWUhdkhByyizkHVaxEEWE8Xl7qKaUW8Co_A7hKtbOlW7m3dUPtmP_6eX9cx8XYqa44a2Q4dW3VEIREXrcT4BQ9kbZ248Czmq1kIZT_RMK2e4D1MHK2A_q7Z40VsVlfhw638-u5RAnNgAGfGu9Tp-ufPPz8sMBqSWLbynUYCVDb5aOk7Lg
+#POST http://localhost:8080/listadesejo
+POST http://localhost:4200/api/listadesejo 
+Content-Type: application/json
+Authorization: Bearer {{TOKEN2}}
+
+{
+    "nome":"adsfadfa"
+}
+

@@ -1,0 +1,32 @@
+11-12-2025 20:43:18 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06000: tokenHeaderName = Authorization
+11-12-2025 20:43:18 DEBUG [io.sm.jw.auth] (vert.x-eventloop-thread-0) SRJWT06005: Authorization header was null
+11-12-2025 20:43:18 DEBUG [io.qu.sm.jw.ru.au.JWTAuthMechanism] (vert.x-eventloop-thread-0) Bearer access token is not available
+11-12-2025 20:43:18 DEBUG [or.hi.or.jdbc] (executor-thread-2) HHH100016: 'hibernate.connection.provider_disables_autocommit' was enabled. This setting should only be enabled when JDBC Connections obtained by Hibernate from the ConnectionProvider have auto-commit disabled. Enabling this setting when connections have auto-commit enabled leads to execution of SQL operations outside of any JDBC transaction.
+11-12-2025 20:43:18 DEBUG [or.hi.SQL] (executor-thread-2) 
+    [34mselect[0m
+        u1_0.id,
+        u1_0.email,
+        u1_0.nome,
+        u1_0.perfil,
+        u1_0.senha 
+    [34mfrom[0m
+        Usuario u1_0 
+    [34mwhere[0m
+        u1_0.email=? 
+    [34mfetch[0m
+        [34mfirst[0m ? [34mrows[0m [34monly[0m
+11-12-2025 20:43:19 DEBUG [io.sm.jw.util] (executor-thread-2) SRJWT01010: File token/private_key.pem is not found
+11-12-2025 20:43:19 DEBUG [io.sm.jw.util] (executor-thread-2) SRJWT01003: Trying to create a key from the encoded PEM key...
+11-12-2025 20:43:19 DEBUG [or.hi.se.metrics] (executor-thread-2) HHH000401: Logging session metrics:
+	39911 ns acquiring 1 JDBC connections
+	34582 ns releasing 1 JDBC connections
+	105191 ns preparing 1 JDBC statements
+	784214 ns executing 1 JDBC statements
+	0 ns executing 0 JDBC batches
+	0 ns performing 0 second-level cache puts
+	0 ns performing 0 second-level cache hits
+	0 ns performing 0 second-level cache misses
+	0 ns executing 0 flushes (flushing a total of 0 entities and 0 collections)
+	0 ns executing 0 pre-partial-flushes
+	0 ns executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+

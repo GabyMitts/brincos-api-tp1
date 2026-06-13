@@ -1,0 +1,37 @@
+10-04-2026 19:52:26 WARN  [io.sm.config] (Test runner thread) SRCFG01007: Duplicate value found for name : quarkus.http.host, config source name : PropertiesConfigSource[source=file:/home/edival/PESSOAL/Gaby/Java/brincos-api-tp1/target/classes/application.properties], (old value : 0.0.0.0)
+10-04-2026 19:52:26 INFO  [or.hi.jp.in.ut.LogHelper] (Test runner thread) HHH000204: Processing PersistenceUnitInfo [name: <default>]
+10-04-2026 19:52:26 INFO  [or.hi.Version] (Test runner thread) HHH000412: Hibernate ORM core version 7.1.6.Final
+10-04-2026 19:52:26 INFO  [or.hi.or.co.pooling] (Test runner thread) HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database dialect: PostgreSQLDialect
+	Database version: 13.0
+	Default catalog/schema: unknown/unknown
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	JDBC fetch size: undefined/unknown
+	Pool: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+10-04-2026 19:52:27 INFO  [or.hi.va.in.ut.Version] (Test runner thread) HV000001: Hibernate Validator 9.1.0.Final
+10-04-2026 19:52:27 WARN  [io.sm.config] (Test runner thread) SRCFG01007: Duplicate value found for name : quarkus.http.host, config source name : PropertiesConfigSource[source=file:/home/edival/PESSOAL/Gaby/Java/brincos-api-tp1/target/classes/application.properties], (old value : 0.0.0.0)
+10-04-2026 19:52:27 WARN  [io.qu.config] (Test runner thread) Unrecognized configuration key "quarkus.http.cors" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+10-04-2026 19:52:27 WARN  [io.qu.config] (Test runner thread) Unrecognized configuration key "quarkus.security.auth.enabled" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+10-04-2026 19:52:27 WARN  [io.qu.config] (Test runner thread) The "quarkus.log.file.enable" config property is deprecated and should not be used anymore.
+10-04-2026 19:52:27 WARN  [io.qu.config] (Test runner thread) The "quarkus.hibernate-orm.database.generation" config property is deprecated and should not be used anymore.
+10-04-2026 19:52:27 INFO  [or.hi.or.co.pooling] (JPA Startup Thread) HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database dialect: PostgreSQLDialect
+	Database version: 13.0
+	Default catalog/schema: unknown/unknown
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	JDBC fetch size: undefined/unknown
+	Pool: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+10-04-2026 19:52:27 INFO  [io.quarkus] (Test runner thread) brincos-api-tp1 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.30.1) started in 2.366s. Listening on: http://0.0.0.0:8081
+10-04-2026 19:52:27 INFO  [io.quarkus] (Test runner thread) Profile test activated. 
+10-04-2026 19:52:27 INFO  [io.quarkus] (Test runner thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, rest, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+10-04-2026 19:52:29 INFO  [io.quarkus] (Test runner thread) brincos-api-tp1(test application) stopped in 0.024s

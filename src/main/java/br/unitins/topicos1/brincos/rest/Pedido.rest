@@ -1,0 +1,88 @@
+### Fazer login para obter o token JWT
+# @name Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123456"
+}
+
+### Variável para armazenar o token (copie o token da resposta acima)
+@TOKEN = {{Login.response.body.token}}
+
+    ### Incluir um pedido com múltiplos itens
+POST http://localhost:8080/pedidos
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "itensPedido": [
+        {
+            "quantidade": 2,
+            "idProduto": 3
+        },
+        {
+            "quantidade": 1,
+            "idProduto": 4
+        }
+    ],
+    "enderecoId": 1
+}
+
+### Buscar todos os pedidos (sem autenticação)
+GET http://localhost:8080/pedidos
+
+### Buscar meus pedidos (requer autenticação)
+GET http://localhost:8080/pedidos/meus-pedidos
+Authorization: Bearer {{TOKEN}}
+
+### Exemplo 2: Pedido com apenas 1 item
+POST http://localhost:8080/pedidos
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "total": 75.50,
+    "itensPedido": [
+        {
+            "quantidade": 1,
+            "preco": 75.50,
+            "idProduto": 5
+        }
+    ],
+    "endereco": "Av. Paulista, 1000",
+    "cidade": "São Paulo",
+    "bairro": "Bela Vista",
+    "cep": "01310-100"
+}
+
+### Exemplo 3: Pedido com 3 itens diferentes
+POST http://localhost:8080/pedidos
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+    "total": 225.00,
+    "itensPedido": [
+        {
+            "quantidade": 2,
+            "preco": 50.00,
+            "idProduto": 1
+        },
+        {
+            "quantidade": 1,
+            "preco": 75.00,
+            "idProduto": 2
+        },
+        {
+            "quantidade": 2,
+            "preco": 50.00,
+            "idProduto": 4
+        }
+    ],
+    "endereco": "Rua Oscar Freire, 500",
+    "cidade": "São Paulo",
+    "bairro": "Jardins",
+    "cep": "01426-001"
+}

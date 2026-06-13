@@ -1,0 +1,1 @@
+22-03-2026 13:50:53 ERROR [io.qu.de.ru.LocalHostOnlyFilter] (vert.x-eventloop-thread-0) Dev UI: Only localhost is allowed, unexpected host: 192.168.101.33

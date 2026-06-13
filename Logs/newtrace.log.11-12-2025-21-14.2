@@ -1,0 +1,75 @@
+11-12-2025 21:14:32 DEBUG [ja.la.Runtime] (Thread-165) Runtime.exit() called with status: 0: java.lang.Throwable: Runtime.exit(0)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Runtime.exit(Runtime.java:188)
+	at java.base/java.lang.System.exit(System.java:1920)
+	at io.quarkus.deployment.console.AeshConsole$3.run(AeshConsole.java:221)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+11-12-2025 21:14:32 FINE  [or.ae.re.te.im.ExecPty] (Console Shutdown Hook) Running: [stty, -F, /dev/pts/8, -a]
+11-12-2025 21:14:32 DEBUG [io.qu.ru.Application] (Shutdown thread) Stopping application
+11-12-2025 21:14:32 FINE  [or.ae.re.te.ut.ShutdownHooks] (Aesh Shutdown Hook) Running all shutdown-hook tasks
+11-12-2025 21:14:32 DEBUG [io.qu.ru.Application] (Quarkus Main Thread) Stopping application
+11-12-2025 21:14:32 DEBUG [io.qu.ru.sh.ShutdownRecorder] (Shutdown thread) Attempting to gracefully shutdown.
+11-12-2025 21:14:32 FINE  [or.ae.re.te.ut.ShutdownHooks] (Aesh Shutdown Hook) Running task: 
+11-12-2025 21:14:32 DEBUG [or.hi.in.SessionFactoryImpl] (Shutdown thread) HHH000031: Closing factory [44d26178-631e-4ec2-9966-d567118926d1]
+11-12-2025 21:14:32 DEBUG [or.in.qu.hi.ca.QuarkusInfinispanRegionFactory] (Shutdown thread) Stop region factory
+11-12-2025 21:14:32 DEBUG [ja.la.ProcessBuilder] (Console Shutdown Hook) ProcessBuilder.start(): pid: 474198, dir: null, cmd: "stty": java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.aesh.readline.terminal.impl.ExecPty.exec(ExecPty.java:456)
+	at org.aesh.readline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:245)
+	at org.aesh.readline.terminal.impl.ExecPty.getAttr(ExecPty.java:131)
+	at org.aesh.readline.terminal.impl.ExecPty.setAttr(ExecPty.java:153)
+	at org.aesh.readline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54)
+	at org.aesh.readline.tty.terminal.TerminalConnection.setAttributes(TerminalConnection.java:180)
+	at io.quarkus.deployment.console.AeshConsole.end(AeshConsole.java:167)
+	at io.quarkus.deployment.console.AeshConsole.lambda$setup$2(AeshConsole.java:303)
+	at org.aesh.readline.tty.terminal.TerminalConnection.close(TerminalConnection.java:346)
+	at io.quarkus.deployment.console.AeshConsole$2.run(AeshConsole.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+11-12-2025 21:14:32 FINE  [or.ae.re.te.ut.ShutdownHooks] (Aesh Shutdown Hook) Removing shutdown-hook: 
+11-12-2025 21:14:32 DEBUG [or.in.qu.hi.ca.QuarkusInfinispanRegionFactory] (Shutdown thread) Clear region references
+11-12-2025 21:14:32 FINE  [or.ae.re.te.im.ExecPty] (Aesh Shutdown Hook) Running: [stty, -F, /dev/pts/8, -a]
+11-12-2025 21:14:32 DEBUG [ja.la.ProcessBuilder] (Aesh Shutdown Hook) ProcessBuilder.start(): pid: 474200, dir: null, cmd: "stty": java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.aesh.readline.terminal.impl.ExecPty.exec(ExecPty.java:456)
+	at org.aesh.readline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:245)
+	at org.aesh.readline.terminal.impl.ExecPty.getAttr(ExecPty.java:131)
+	at org.aesh.readline.terminal.impl.ExecPty.setAttr(ExecPty.java:153)
+	at org.aesh.readline.terminal.impl.AbstractPosixTerminal.close(AbstractPosixTerminal.java:69)
+	at org.aesh.readline.terminal.impl.PosixSysTerminal.close(PosixSysTerminal.java:68)
+	at org.aesh.readline.terminal.utils.ShutdownHooks.runTasks(ShutdownHooks.java:68)
+	at org.aesh.readline.terminal.utils.ShutdownHooks.access$000(ShutdownHooks.java:34)
+	at org.aesh.readline.terminal.utils.ShutdownHooks$1.run(ShutdownHooks.java:49)
+
+11-12-2025 21:14:32 FINE  [or.ae.re.te.im.ExecPty] (Console Shutdown Hook) Result: speed 38400 baud; rows 16; columns 109; line = 0;
+intr = <undef>; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = M-^?;
+eol2 = M-^?; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr -icrnl -ixon -ixoff
+-iuclc ixany imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig -icanon -iexten -echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+echoctl echoke -flusho -extproc
+
+11-12-2025 21:14:32 DEBUG [or.hi.or.beans] (Shutdown thread) HHH10005004: Stopping BeanContainer: io.quarkus.hibernate.orm.runtime.cdi.QuarkusArcBeanContainer@94fd16f
+11-12-2025 21:14:32 DEBUG [io.qu.ar.impl] (Shutdown thread) ArC DI container shut down
+11-12-2025 21:14:32 FINE  [or.ae.re.te.im.ExecPty] (Aesh Shutdown Hook) Result: speed 38400 baud; rows 16; columns 109; line = 0;
+intr = <undef>; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = M-^?;
+eol2 = M-^?; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr -icrnl -ixon -ixoff
+-iuclc ixany imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig -icanon -iexten -echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+echoctl echoke -flusho -extproc
+
+11-12-2025 21:14:32 FINE  [or.ae.re.te.im.ExecPty] (Aesh Shutdown Hook) Running: [stty, -F, /dev/pts/8, icrnl, ixon, echo, icanon, iexten, intr, ^C]
+11-12-2025 21:14:32 FINE  [or.ae.re.te.im.ExecPty] (Console Shutdown Hook) Running: [stty, -F, /dev/pts/8, -a]
+11-12-2025 21:14:32 INFO  [io.quarkus] (Shutdown thread) brincos-api-tp1 stopped in 0.015s
+11-12-2025 21:14:32 DEBUG [io.ne.bu.PoolThreadCache] (executor-thread-2) Freed 2 thread-local buffer(s) from thread: executor-thread-2

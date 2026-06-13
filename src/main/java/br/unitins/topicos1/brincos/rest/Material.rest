@@ -1,0 +1,31 @@
+
+
+############ LOGIN ############
+# @name Login
+POST http://localhost:8080/auth
+Accept: */*
+Content-Type: application/json
+
+{
+    "email": "gaby@gmail.com",
+    "senha": "123"
+}
+
+# @TOKEN = {{Login.response.body.token}}
+
+
+############ GET ALL MATERIAL ############
+GET http://localhost:8080/material
+
+
+############ GET MATERIAL BY ID ############
+GET http://localhost:8080/material/1
+
+############ CREATE NEW MATERIAL ############
+POST http://localhost:8080/material
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ1bml0aW5zLWp3dCIsImV4cCI6MTc2NDkxMTI0NSwidXBuIjoiZ2FicmllbGxhbWl0dCIsImdyb3VwcyI6WyJVc2VyIl0sImVtYWlsIjoiZ2FieUBnbWFpbC5jb20iLCJpYXQiOjE3NjQ5MDc2NDUsImp0aSI6IjM2Zjc5MWQyLTgxNDQtNDk1ZC04Zjk0LTYwOGRkOWEwNWJmZiJ9.cR2vsTCMUj_wZ0SURXmEF1Cl91e3LeiXWrhb1I2z_XBSW_-p13gWfGwf6kzeEIAai9SG3MChwBlOZ7si7FrWYCXd5_O_sklPNciwUj4U2d65Ftqc4x6fRhPE9Hnu9UJcz15iOd5PKp3IgdvLeAAEfZCdimLgc0DTlsx6bMIZ9BsIaS_4hwknR5i585iXdtrbyj3kaTDC4gKW9e9NGeUEbxhoQflepsRVuNvf7Rs-ABMLpz3XO5QDBVRRi2HRaJvteOjuAuHDnuDlMfjxm_1-yz_H8ni8OiMjITtLAHFdxeCPoki0hy_qj-FzLkhf28U6QWyNrNpxrGWVqK_vRes5ZQ
+
+{
+    "nome": "Latão"
+}
